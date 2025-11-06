@@ -1,0 +1,53 @@
+# Node dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Prettier / Editor / Cache files
+.prettierignore
+.prettiercache
+.vscode/
+.idea/
+
+# Lock files (optional, if you don't want them in Git)
+package-lock.json
+package.json
+prettierrc.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional: OS + misc
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Generated assets
+*.min.js
+*.min.css
+
+# Other cache or temporary folders
+.cache/
+temp/
+tmp/

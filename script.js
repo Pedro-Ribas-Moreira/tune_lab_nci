@@ -1,36 +1,88 @@
+const canvas = document.getElementById("wave-canvas");
+const ctx = canvas.getContext("2d");
 
-// Wait for the DOM to be fully loaded
-document.addEventListener('DOMContentLoaded', (event) => {
+// Set canvas to full window size
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
-  // Wait 3 seconds before showing the modal
-  setTimeout(() => {
-    // Select the modal element
-    var myModalEl = document.getElementById('discountModal');
-    
-    // Create a new Bootstrap modal instance
-    var modal = new bootstrap.Modal(myModalEl);
-    
-    // Show the modal
-    modal.show();
-  }, 3000); // 3000 milliseconds = 3 seconds
-  
-  // Optional: Handle the coupon button click
-  var couponBtn = document.getElementById('getCouponBtn');
-  couponBtn.addEventListener('click', () => {
-    var emailInput = document.getElementById('modalEmailInput');
-    if (emailInput.value) {
-      console.log('Email submitted:', emailInput.value);
-      // Here you would add code to send the email to your server
-      
-      // Hide the modal after submission
-      var modalInstance = bootstrap.Modal.getInstance(myModalEl);
-      modalInstance.hide();
-      
-      // Optional: Show a "thank you" message
-      alert('Thanks! Your coupon is on its way.');
-    } else {
-      emailInput.classList.add('is-invalid'); // Show error if empty
+// --- Configuration ---
+let baselineY = canvas.height / 2; // Fixed vertical center of the wave
+const fixedFrequency = 0.09; // Base density of the wave
+const fixedAmplitude = 0; // Base height of the wave
+
+const maxDynamicAmplitude = 400; // Max additional height for the "beat"
+const influenceRadius = 150; // How wide the "beat" effect is
+
+const waveSpeed = 0.05; // How fast the underlying wave moves
+
+// --- State ---
+let mouseX = canvas.width / 2; // Initial mouse X
+let mouseY = baselineY; // Initial mouse Y
+let time = 0; // Used for continuous animation
+
+// The main animation loop
+function animate() {
+  // 1. Clear the canvas completely
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  // 2. Calculate dynamic amplitude based on mouseY
+  // This controls the *intensity* of the localized beat
+  const distanceY = Math.abs(mouseY - baselineY);
+  const dynamicAmplitudeScale = distanceY / (canvas.height / 2);
+  const currentDynamicAmplitude = dynamicAmplitudeScale * maxDynamicAmplitude;
+
+  // 3. Start drawing the line
+  ctx.beginPath();
+  ctx.moveTo(0, baselineY); // Start at the left edge
+  ctx.strokeStyle = "#FFFFFF";
+  ctx.lineWidth = 15; // Adjust line thickness as needed
+
+  // 4. Loop through every pixel horizontally
+  for (let x = 0; x < canvas.width; x++) {
+    // Base wave calculation (always moving)
+    let y = baselineY + Math.sin(x * fixedFrequency + time) * fixedAmplitude;
+
+    // Apply localized "beat" effect
+    const distanceX = Math.abs(x - mouseX);
+
+    if (distanceX < influenceRadius) {
+      // Calculate falloff: 1 at mouseX, 0 at influenceRadius
+      const influence = 1 - Math.pow(distanceX / influenceRadius, 2); // Squared for a smoother, faster falloff
+
+      // Add the dynamic amplitude to the base wave
+      y +=
+        Math.sin(x * fixedFrequency + time) *
+        currentDynamicAmplitude *
+        influence;
     }
-  });
 
+    ctx.lineTo(x, y);
+  }
+
+  // 5. Render the line
+  ctx.stroke();
+
+  // 6. Update time for continuous animation
+  time += waveSpeed;
+
+  // 7. Request the next frame
+  requestAnimationFrame(animate);
+}
+
+// --- Event Listeners ---
+
+// Listen for mouse movement to update mouseX and mouseY
+window.addEventListener("mousemove", (event) => {
+  mouseX = event.clientX;
+  mouseY = event.clientY;
 });
+
+// Adjust canvas size if window is resized
+window.addEventListener("resize", () => {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  baselineY = canvas.height / 2; // Recalculate center
+});
+
+// Start the animation
+animate();
