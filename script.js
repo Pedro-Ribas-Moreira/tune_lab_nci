@@ -11,9 +11,9 @@ const fixedFrequency = 0.09; // Base density of the wave
 const fixedAmplitude = 0; // Base height of the wave
 
 const maxDynamicAmplitude = 400; // Max additional height for the "beat"
-const influenceRadius = 150; // How wide the "beat" effect is
+const influenceRadius = 200; // How wide the "beat" effect is
 
-const waveSpeed = 0.05; // How fast the underlying wave moves
+const waveSpeed = 0.01; // How fast the underlying wave moves
 
 // --- State ---
 let mouseX = canvas.width / 2; // Initial mouse X
@@ -35,7 +35,7 @@ function animate() {
   ctx.beginPath();
   ctx.moveTo(0, baselineY); // Start at the left edge
   ctx.strokeStyle = "#FFFFFF";
-  ctx.lineWidth = 15; // Adjust line thickness as needed
+  ctx.lineWidth = 10; // Adjust line thickness as needed
 
   // 4. Loop through every pixel horizontally
   for (let x = 0; x < canvas.width; x++) {
@@ -86,3 +86,28 @@ window.addEventListener("resize", () => {
 
 // Start the animation
 animate();
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Select ALL elements with the class "course"
+  const courseElements = document.querySelectorAll(".course");
+
+  // Loop over each .course element
+  courseElements.forEach((course) => {
+    // Find the video element *inside* this specific .course div
+    const video = course.querySelector("video");
+
+    // Make sure we found a video before adding listeners
+    if (video) {
+      // When the mouse enters the div
+      course.addEventListener("mouseenter", () => {
+        video.play();
+      });
+
+      // When the mouse leaves the div
+      course.addEventListener("mouseleave", () => {
+        video.pause();
+        // video.currentTime = 0; // Reset video to the start
+      });
+    }
+  });
+});

@@ -98,7 +98,7 @@ canvas {
 /* ------------- */
 
 /* --- SECTION STYLING --- */
-#rythim {
+#courses-section {
   /* Limits the width and centers the section */
   max-width: 1200px;
   margin: 40px auto;
@@ -122,409 +122,108 @@ canvas {
 
 /* --- FLEXBOX GRID LOGIC --- */
 
-.main-grid-flex {
+.courses {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
 }
-
-.div-item {
+.course {
+  /* border: 2px solid white; */
+  border-radius: var(--border-radius-px);
   flex: 1;
-  min-width: 300px;
-}
-
-.top-div {
-  flex-basis: 100%;
-  /* Using your variables */
-  font-family: var(--font-body);
-  border-radius: 0.375rem;
-  background-color: var(--color-teal);
-  background-image: url("../assets/DaftPunk.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  min-height: 360px;
-  position: relative;
-
-  animation-name: myAnimation;
-  animation-duration: 0.3s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-}
-.top-label {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-  animation-name: myAnimation;
-  animation-duration: 0.3s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-}
-
-.main-grid-flex h2 {
-  font-family: var(--font-body);
-  font-size: 2.5rem; /* 40px */
-  margin-top: 0.5rem;
-}
-
-.main-grid-flex span {
-  font-size: 1rem; /* 16px */
-  line-height: 1.5;
-}
-
-.instructor {
-  position: absolute;
-  bottom: 2.5rem; /* 40px */
-  left: 2.5rem; /* 40px */
-}
-
-.div-item {
-  color: #fdfdfd;
-  position: relative;
+  min-width: 250px;
+  min-height: 450px;
   display: flex;
   align-items: center;
-  min-height: 680px;
+  text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
   justify-content: center;
-  cursor: pointer;
-
-  /* background-image: url('path/to/travis-barker.jpg'); */
-}
-.div-label > span {
-  font-family: var(--font-body-light);
 }
 
-.right-div-label {
-  font-family: var(--font-body);
-  position: absolute;
-  top: 16px;
-  right: 16px;
-}
-.div-left {
-  background-color: var(--color-dark-brown);
-}
-
-.left-div-label {
-  font-family: var(--font-body);
-  position: relative;
-  background-color: var(--color-light-brown);
-  max-height: 100%;
-  height: 500px;
-  width: 100%;
-  margin: 54px;
-}
-.img-holder {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.drum {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  height: 100%;
-}
-
-.div-right {
-  background-color: var(--color-steel-blue);
-}
-.left-img-container {
-  background-color: rgba(0, 0, 0, 0.2);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  width: 460px;
-  height: 600px;
-}
-
-.right-img-container {
-  background-color: rgba(0, 0, 0, 0.2);
-  background-image: url("../assets/Slash.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  width: 460px;
-  height: 600px;
-}
-
-/*  */
-
-/* --- NEWS SECTION --- */
-#news-section {
-  /* Reusing styles from #rythim */
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-
-.news-grid {
-  display: flex;
-  flex-wrap: wrap; /* Allows stacking on smaller screens */
-  gap: 20px; /* Consistent gap */
-}
-
-.news-card--large {
-  flex: 2; /* Takes ~2/3 width */
-  min-width: 300px;
-  min-height: 520px; /* Matches height of two small cards + gap */
-}
-
-.news-column-right {
-  flex: 1; /* Takes ~1/3 width */
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  min-width: 300px;
-}
-
-.news-card {
-  position: relative;
-  padding: 24px;
-  border-radius: 8px; /* Subtle rounding */
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  color: #ffffff;
-  overflow: hidden; /* Contains the ::before pseudo-element */
-  cursor: pointer;
-  transition: transform 0.3s ease-out;
-}
-
-.news-card:hover {
-  transform: scale(1.02); /* Subtle hover effect */
-}
-
-.news-card--small {
-  min-height: 250px;
-}
-
-/* Dimming overlay for readability on image backgrounds */
-.news-card::before {
+/* This creates the white border using a pseudo-element */
+.course::after {
   content: "";
   position: absolute;
+
+  /* Position the pseudo-element 2px *outside* the parent */
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+
+  /* Apply the border to the pseudo-element */
+  border: 2px solid white;
+
+  /* Ensure the border-radius matches the parent */
+  border-radius: var(--border-radius-px);
+
+  /* Prevents the pseudo-element from blocking clicks on the .course */
+  pointer-events: none;
+}
+.top-div {
+  flex-basis: 100%;
+  position: relative;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+.cover-color-transparent {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* Dark overlay */
-  z-index: 1;
-  transition: background 0.3s ease;
+  background-color: var(--color-steel-blue-shadow); /* Black with 30% opacity */
+  z-index: 1; /* Ensure it sits above the video but below the text */
 }
 
-.news-card:hover::before {
-  background: rgba(0, 0, 0, 0.2); /* Lighten on hover */
-}
-
-/* Card-specific backgrounds.
-  We use your existing CSS color variables as fallbacks.
-  In a real project, you would add background-image properties here.
-*/
-#news-card-event {
-  background-color: var(--color-steel-blue);
-  /* e.g., background-image: url('../assets/chad-smith.jpg'); */
-}
-
-#news-card-award {
-  background-color: var(--color-dark-brown);
-}
-
-/* No overlay needed for the solid color card */
-#news-card-award::before {
-  display: none;
-}
-/* No hover effect for solid card */
-#news-card-award:hover {
-  transform: none;
-  cursor: default;
-}
-
-#news-card-article {
-  background-color: var(--color-steel-blue);
-  /* e.g., background-image: url('../assets/guitars.jpg'); */
-}
-
-/* --- Card Labels --- */
-.news-card__label {
-  font-size: 0.9rem;
-  font-family: var(--font-body-light, "Roboto", sans-serif);
-  color: rgba(255, 255, 255, 0.85);
+.top-label {
   position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
   z-index: 2;
+  text-align: left;
+}
+.video-asset {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* z-index: 1; */
 }
 
-.news-card__label--tl {
-  top: 24px;
-  left: 24px;
-}
-
-.news-card__label--tr {
-  top: 24px;
-  right: 24px;
-}
-
-.news-card__label--br {
-  bottom: 24px;
-  right: 24px;
-}
-
-/* --- Card Content (Text) --- */
-.news-card__content {
+.left-div {
   position: relative;
+  background-color: var(--color-dark-brown);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.left-label {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
   z-index: 2;
-  margin-top: auto; /* Pushes content to the bottom by default */
+  text-align: right;
+}
+.left-div > .cover-color-transparent {
+  background-color: var(--color-shadow-brown); /* Dark brown with 30% opacity */
 }
 
-/* Center content for the "award" card */
-#news-card-award .news-card__content {
-  margin-top: auto;
-  margin-bottom: auto;
+.right-div {
+  position: relative;
+  background-color: var(--color-steel-blue-shadow);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-
-.news-card__title {
-  font-family: var(--font-header, "Alfa Slab One", serif);
-  font-size: 2rem; /* 32px */
-  line-height: 1.25;
-  margin-bottom: 8px;
-}
-
-.news-card__text {
-  font-family: var(--font-body, "Inter", sans-serif);
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 0.9);
-  line-height: 1.5;
-  max-width: 90%; /* Prevent text from touching edge */
-}
-
-/* --- FOOTER SECTION --- */
-#main-footer {
-  background-color: #ffffff;
-  color: #333; /* Dark text color for readability */
-  padding: 50px 0;
-  margin-top: 60px; /* Space above the footer */
-  font-family: var(--font-body, "Inter", sans-serif);
-}
-
-.footer-container {
-  max-width: 1200px; /* Match other sections */
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  flex-wrap: wrap; /* Allows stacking on mobile */
-  justify-content: space-between;
-  gap: 30px;
-}
-
-.footer-left {
-  flex: 1;
-  min-width: 250px; /* Ensures it doesn't get too squished */
-}
-
-.footer-left p {
-  font-size: 0.9rem;
-  color: #555;
-  margin: 0 0 20px 0;
-}
-
-.footer-socials {
-  display: flex;
-  gap: 18px;
-}
-
-.footer-socials a {
-  color: #333; /* Icon color */
-  font-size: 1.25rem; /* Makes icons a bit larger */
-  transition: color 0.3s ease;
-}
-
-.footer-socials a:hover {
-  color: var(--color-bright-blue); /* Use your existing variable */
-}
-
-.footer-links-grid {
-  flex: 2;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px; /* Gap between columns on wrap */
-}
-
-.footer-column {
-  flex: 1;
-  min-width: 160px; /* Helps with responsive wrapping */
-}
-
-.footer-column h5 {
-  font-family: var(--font-body, "Inter", sans-serif);
-  font-weight: 700; /* Bold */
-  font-size: 1rem;
-  margin-top: 0;
-  margin-bottom: 15px;
-  color: #000;
-}
-
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-column li {
-  margin-bottom: 10px;
-}
-
-.footer-column a {
-  text-decoration: none;
-  color: #555;
-  font-size: 0.9rem;
-  transition: color 0.3s ease;
-}
-
-.footer-column a:hover {
-  color: var(--color-bright-blue);
-  text-decoration: underline;
-}
-
-/* --- DISCOUNT MODAL STYLES --- */
-.modal-content {
-  /* Use your existing color variables */
-  background-color: var(--color-dark-blue);
-  color: #ffffff;
-  border: 1px solid var(--color-steel-blue);
-}
-
-.modal-header {
-  border-bottom: 1px solid var(--color-steel-blue);
-}
-
-.modal-footer {
-  border-top: 1px solid var(--color-steel-blue);
-}
-
-/* Style the input for the dark modal */
-#modalEmailInput {
-  background-color: #032336; /* A slightly lighter dark blue */
-  color: #ffffff;
-  border: 1px solid var(--color-steel-blue);
-}
-
-/* Change placeholder text color */
-#modalEmailInput::placeholder {
-  color: #adb5bd; /* A light grey */
-}
-
-/* Style the input on focus */
-#modalEmailInput:focus {
-  background-color: #032336;
-  color: #ffffff;
-  border-color: var(--color-bright-blue);
-  /* Use your bright blue for the focus ring */
-  box-shadow: 0 0 0 0.25rem rgba(15, 155, 242, 0.25);
-}
-
-/* Ensure labels are also white */
-.modal-body .form-label {
-  color: #f8f9fa;
+.right-label {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  z-index: 2;
+  text-align: left;
 }
