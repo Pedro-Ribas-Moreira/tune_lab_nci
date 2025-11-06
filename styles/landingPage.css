@@ -1,0 +1,229 @@
+.backgroundGradient {
+  position: fixed;
+  z-index: -100;
+  top: 0;
+  left: 0;
+
+  /* background-image: url("/assets/vinilBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background: #011826;
+  background: linear-gradient(
+    172deg,
+    rgba(1, 24, 38, 1) 0%,
+    rgba(1, 24, 38, 1) 66%,
+    rgba(38, 1, 1, 1) 100%
+  );
+
+  height: 100vh;
+  width: 100vw;
+}
+
+/* #soundbars {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  background-color: red;
+  transform: translateX(-50%);
+  height: 200px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.soundbar {
+  bottom: 0;
+  height: 100px;
+  width: 20px;
+  background-color: #00ffff;
+  margin: 0 2px;
+  display: inline-block;
+  transition: all 0.1s ease;
+} */
+
+/* #video-background {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -99;
+} */
+
+#hero-section {
+  position: relative;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+canvas {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+  /* background-color: red; */
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  color: #fdfdfd;
+  padding: 0 20px;
+  margin-bottom: 200px;
+}
+
+#hero-header {
+  font-family: var(--font-header);
+  font-size: 3rem; /* 48px */
+  margin-bottom: 16px;
+}
+
+#hero-section > p {
+  font-family: var(--font-body);
+  font-size: 1.25rem; /* 20px */
+  margin-bottom: 32px;
+}
+#hero-div-btn {
+  height: 64px;
+}
+
+/* ------------- */
+
+/* --- SECTION STYLING --- */
+#courses-section {
+  /* Limits the width and centers the section */
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.section-title > p {
+  border: 2px solid white;
+  border-radius: var(border-radius-px);
+  border-radius: 0.375rem;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-header);
+  font-size: 2rem; /* 32px */
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+/* --- FLEXBOX GRID LOGIC --- */
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.course {
+  /* border: 2px solid white; */
+  border-radius: var(--border-radius-px);
+  flex: 1;
+  min-width: 250px;
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+}
+
+/* This creates the white border using a pseudo-element */
+.course::after {
+  content: "";
+  position: absolute;
+
+  /* Position the pseudo-element 2px *outside* the parent */
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+
+  /* Apply the border to the pseudo-element */
+  border: 2px solid white;
+
+  /* Ensure the border-radius matches the parent */
+  border-radius: var(--border-radius-px);
+
+  /* Prevents the pseudo-element from blocking clicks on the .course */
+  pointer-events: none;
+}
+.top-div {
+  flex-basis: 100%;
+  position: relative;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+.cover-color-transparent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-steel-blue-shadow); /* Black with 30% opacity */
+  z-index: 1; /* Ensure it sits above the video but below the text */
+}
+
+.top-label {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  z-index: 2;
+  text-align: left;
+}
+.video-asset {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* z-index: 1; */
+}
+
+.left-div {
+  position: relative;
+  background-color: var(--color-dark-brown);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.left-label {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  z-index: 2;
+  text-align: right;
+}
+.left-div > .cover-color-transparent {
+  background-color: var(--color-shadow-brown); /* Dark brown with 30% opacity */
+}
+
+.right-div {
+  position: relative;
+  background-color: var(--color-steel-blue-shadow);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.right-label {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  z-index: 2;
+  text-align: left;
+}
