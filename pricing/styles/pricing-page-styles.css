@@ -1,0 +1,191 @@
+
+
+/* Image overlays */
+.image-overlay {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.image-overlay img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.40; /* adjust value 0–1 */
+  transition: opacity 0.3s ease; /* smooth hover fade */
+}
+
+.column-right img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.70; /* adjust value 0–1 */
+  
+}
+
+.column img:hover {
+  opacity: 1; /* full opacity on hover */
+}
+
+/* Text overlay settings */
+.overlay-text {
+  position: absolute;
+  bottom: 12px;              /* move text up/down */
+  left: 12px;                /* move text left/right */
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6); /* makes text readable */
+}
+
+/* container and column styles */
+.grid-container {
+    
+    width:100%;
+    padding: 100px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0;
+}
+
+.column:first-child {
+  border-right: 8px solid rgba(0, 0, 0, 0); /* adjust color/thickness */
+}
+
+.column-left {
+  flex: 0 0 70%;
+}
+
+.column-right {
+  flex: 0 0 30%;
+}
+
+.column-right img{
+  margin-top: 24px;
+}
+
+p {
+    text-transform: none;
+}
+
+
+/* pricing section styles */
+.pricing-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  
+}
+
+.course {
+    margin-bottom: 40px;
+    text-transform: none;
+    margin-left: 8px;
+}
+
+.pricing-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pricing-list li {
+  position: relative;
+  padding-left: 22px;
+}
+
+.pricing-list li::before {
+  content: "♪";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: goldenrod;
+}
+
+/* pricing caclulator styles */
+.price-calculator {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 10px; 
+}
+
+.price-calculator select,
+.price-calculator label {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.result {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.center-wrapper {
+    
+    display: flex;
+    justify-content: center;  /* horizontal */
+    align-items: center;      /* vertical */
+    
+}
+
+
+/*When viewed on smaller screens */
+
+@media (max-width: 768px) {
+    .row {
+    flex-direction: column;
+  }
+
+    .column {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0px; 
+    border-right: none !important; /* remove vertical divider on mobile */
+    border-bottom: none !important; /* ensure no leftover row borders */
+  }
+
+    .image-overlay {
+    display: block; /* <-- Instead of inline-block */
+    width: 100%;
+  }
+
+  .image-overlay img {
+    width: 100% !important;
+    height: auto;
+    display: block;
+  }
+  
+    .grid-container {
+    padding: 40px; 
+  }
+
+    .column img {
+    width: 100%;
+    height: auto;
+    
+  }
+
+    .column-left {
+    width:100%
+}
+
+    .column-right {
+    display: none;
+}
+}

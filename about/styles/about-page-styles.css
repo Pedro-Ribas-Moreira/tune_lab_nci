@@ -1,0 +1,125 @@
+.blackonwhite {
+  color=#ffffff;
+}
+
+.about-hero, .mission, .values, .team, .cta {
+  max-width: 850px;
+  margin: 80px auto;
+  text-align: center;
+  padding: 0 20px;
+  
+}
+
+.value-cards {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.value-cards .card {
+  border: 1px solid #e9e9e9;
+  border-radius: 12px;
+  padding: 24px;
+  width: 250px;
+  background: #fafafa;
+  transition: transform .3s ease;
+}
+
+.value-cards .card:hover {
+  transform: translateY(-6px);
+}
+
+.teacher-img {
+  width: 180px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 12px rgba(0,0,0,0.08);
+}
+
+.button {
+  display: inline-block;
+  padding: 14px 28px;
+  background: black;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #333;
+}
+
+.small-button {
+  background: none;
+  color: #222;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px 18px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.small-button:hover {
+  border-color: black;
+  color: black;
+}
+
+/* Layout for the instructor grid */
+.instructors-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 28px;
+}
+
+
+.instructor-card {
+  border: 1px solid #e9e9e9;
+  border-radius: 14px;
+  padding: 24px;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  text-align: center;
+}
+
+.role {
+  margin-top: -6px;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.hidden { display: none !important; 
+
+}
+
+/* Make the bio reveal smoothly (optional) */
+.teacher-bio {
+  margin: 12px 0 0;
+  transition: all .2s ease;
+}
+
+/* Reusable button style that matches your CTA */
+.toggle-bio {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 10px 18px;
+  background: #000;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background .2s ease, transform .05s ease;
+}
+.toggle-bio:hover { background: #333; }
+.toggle-bio:active { transform: translateY(1px); }
+
+/* Single column on small screens */
+@media (max-width: 720px) {
+  .instructors-grid {
+    grid-template-columns: 1fr;
+  }
+}
