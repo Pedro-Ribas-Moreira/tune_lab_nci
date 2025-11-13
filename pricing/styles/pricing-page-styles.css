@@ -1,4 +1,19 @@
-
+html {
+  scroll-behavior: smooth;
+}
+.title-header{
+  border: 2px solid white;
+  border-radius: var(--border-radius-px);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-header);
+  font-size: 2rem; /* 32px */
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
 
 /* Image overlays */
 .image-overlay {
