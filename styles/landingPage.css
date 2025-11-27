@@ -1,24 +1,3 @@
-.backgroundGradient {
-  position: fixed;
-  z-index: -100;
-  top: 0;
-  left: 0;
-
-  /* background-image: url("/assets/vinilBackground.png");
-  background-size: cover;
-  background-repeat: no-repeat; */
-  background: #011826;
-  background: linear-gradient(
-    172deg,
-    rgba(1, 24, 38, 1) 0%,
-    rgba(1, 24, 38, 1) 66%,
-    rgba(38, 1, 1, 1) 100%
-  );
-
-  height: 100vh;
-  width: 100vw;
-}
-
 /* #soundbars {
   position: absolute;
   bottom: 50%;
@@ -144,7 +123,6 @@ canvas {
 .course::after {
   content: "";
   position: absolute;
-
   /* Position the pseudo-element 2px *outside* the parent */
   top: -2px;
   left: -2px;
@@ -164,18 +142,7 @@ canvas {
   flex-basis: 100%;
   position: relative;
   cursor: pointer;
-
   transition: background-color 0.3s ease;
-}
-
-.cover-color-transparent {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--color-steel-blue-shadow); /* Black with 30% opacity */
-  z-index: 1; /* Ensure it sits above the video but below the text */
 }
 
 .top-label {
@@ -187,16 +154,20 @@ canvas {
   text-align: left;
 }
 .video-asset {
+  opacity: 0.7;
   position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
   /* z-index: 1; */
 }
+.video-asset:hover {
+  opacity: 1;
+}
 
 .left-div {
   position: relative;
-  background-color: var(--color-dark-brown);
+  /* background-color: var(--color-dark-brown); */
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -215,7 +186,7 @@ canvas {
 
 .right-div {
   position: relative;
-  background-color: var(--color-steel-blue-shadow);
+  /* background-color: var(--color-steel-blue-shadow); */
   cursor: pointer;
   transition: background-color 0.3s ease;
 }

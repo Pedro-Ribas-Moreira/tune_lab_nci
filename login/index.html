@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Login & Registration Forms</title>
+    <!-- I'm loading Bootstrap 4 CSS from a CDN here so the forms get that classic Bootstrap look and styling, as required for the assignment. -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      xintegrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <!-- I just added a tiny bit of inline CSS here to make sure the card is perfectly centered on the page and has a light background, which makes it look cleaner. -->
+  </head>
+  <body class="">
+    <div class="backgroundGradient"></div>
+    <header class="header-div">
+      <nav class="header-nav">
+        <h3 id="logoText">TUNE LAB</h3>
+        <div class="header-links">
+          <ul class="menu-list">
+            <li class="menu-item">Courses</li>
+            <li class="menu-item">Pricing</li>
+            <li class="menu-item">About</li>
+            <li class="menu-item">Contact Us</li>
+          </ul>
+          <div>
+            <button id="login-btn" type="button" class="btn btn-outline-light">
+              <i class="fa-solid fa-user"></i> Login
+            </button>
+          </div>
+        </div>
+
+        <div class="btn-group" id="small-display-menu">
+          <button
+            type="button"
+            class="btn btn-outline-light dropdown-toggle"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" style="cursor: pointer" href="#">Action</a>
+            <a class="dropdown-item" style="cursor: pointer" href="#"
+              >Another action</a
+            >
+            <a class="dropdown-item" style="cursor: pointer" href="#"
+              >Something else here</a
+            >
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item b" href="#">
+              <i class="fa-solid fa-user"></i> Login</a
+            >
+          </div>
+        </div>
+
+        <!-- <button id="lo gin-btn" type="button" class="btn btn-primary">Login</button> -->
+      </nav>
+    </header>
+
+    <main style="height: 80vh; display: flex; align-items: center">
+      <div class="container bg-transparent">
+        <div class="row justify-content-center bg-transparent">
+          <div class="col-sm-10 col-md-8 col-lg-6">
+            <!-- This card container holds everything. I used Bootstrap's .card and .shadow-lg classes to make it look nice and contained, like a proper application component. -->
+            <div class="card labtune-border shadow-lg bg-transparent">
+              <div class="card-body">
+                <!-- This is the navigation bar I made to let users switch between the Login and Register forms easily. I used Bootstrap's .nav-pills and .nav-fill classes here. -->
+
+                <!-- This alert box is where I show success or error messages to the user (like if passwords don't match). I used the d-none class to hide it initially. -->
+                <div
+                  id="message-box"
+                  class="alert alert-danger d-none"
+                  role="alert"
+                ></div>
+
+                <!-- This is the Login Form. It only requires the user's email and password, as per the assignment description. -->
+                <form
+                  id="login-form"
+                  onsubmit="handleFormSubmit(event, 'Login')"
+                >
+                  <h4 class="card-title text-center mb-4">Sign In</h4>
+
+                  <!-- Standard form group for the email input. I'm using .form-control for the Bootstrap styling. -->
+                  <div class="form-group">
+                    <label for="login-email">Email address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="login-email"
+                      required
+                      placeholder="Enter email"
+                    />
+                  </div>
+
+                  <!-- Standard form group for the password input. -->
+                  <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="login-password"
+                      required
+                      placeholder="Password"
+                    />
+                  </div>
+
+                  <!-- Here's the section for the "Remember me" checkbox and a dummy "Forgot password?" link. -->
+                  <div class="form-group form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="remember-me"
+                    />
+                    <label class="form-check-label" for="remember-me"
+                      >Remember me</label
+                    >
+                    <a href="#" class="float-right text-info"
+                      >Forgot password?</a
+                    >
+                  </div>
+
+                  <!-- The submit button, styled with Bootstrap's primary color classes (.btn-primary and .btn-block). -->
+                  <button type="submit" class="btn btn-primary btn-block mt-4">
+                    Log In
+                  </button>
+                </form>
+
+                <!-- This is the Registration Form. I included the required Full Name, Email, Password, and Confirmation fields. I hid this form initially using .d-none. -->
+                <form
+                  id="register-form"
+                  onsubmit="handleFormSubmit(event, 'Register')"
+                  class="d-none"
+                >
+                  <h4 class="card-title text-center mb-4">Create Account</h4>
+
+                  <!-- Standard form group for the Full Name input. -->
+                  <div class="form-group">
+                    <label for="register-name">Full Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="register-name"
+                      required
+                      placeholder="Enter your full name"
+                    />
+                  </div>
+
+                  <!-- Standard form group for the email input. -->
+                  <div class="form-group">
+                    <label for="register-email">Email address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="register-email"
+                      required
+                      placeholder="Enter email"
+                    />
+                  </div>
+
+                  <!-- Standard form group for the password input. -->
+                  <div class="form-group">
+                    <label for="register-password">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="register-password"
+                      required
+                      placeholder="Create a password"
+                    />
+                  </div>
+
+                  <!-- Standard form group for confirming the password. -->
+                  <div class="form-group">
+                    <label for="register-password-confirm"
+                      >Confirm Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="register-password-confirm"
+                      required
+                      placeholder="Re-enter password"
+                    />
+                  </div>
+
+                  <!-- A required checkbox for accepting terms, which is standard practice in registration forms. -->
+                  <div class="form-group form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="terms-check"
+                      required
+                    />
+                    <label class="form-check-label" for="terms-check"
+                      >I agree to the
+                      <a href="#" class="text-info">Terms of Service</a></label
+                    >
+                  </div>
+
+                  <!-- The registration submit button, using Bootstrap's success color. -->
+                  <button type="submit" class="btn btn-success btn-block mt-4">
+                    Register
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      // This function is the 'message box' handler. I made it replace the default browser 'alert()' to follow best practices. It shows temporary success or error messages using Bootstrap's alert styles.
+      function showMessage(message, type = "danger") {
+        const msgBox = document.getElementById("message-box");
+        // Reset classes and set new ones for the alert
+        msgBox.className = `alert alert-${type} d-block`;
+        msgBox.textContent = message;
+
+        // I use a timeout to hide the message after 5 seconds automatically.
+        setTimeout(() => {
+          msgBox.classList.remove("d-block");
+          msgBox.classList.add("d-none");
+        }, 5000);
+      }
+
+      // This is the core function for switching between the Login and Register forms when the user clicks the tabs. It just hides one form and shows the other by toggling the 'd-none' and 'active' classes.
+      function showForm(formType, event) {
+        if (event) {
+          event.preventDefault();
+        }
+
+        const loginForm = document.getElementById("login-form");
+        const registerForm = document.getElementById("register-form");
+        const loginTab = document.getElementById("login-tab");
+        const registerTab = document.getElementById("register-tab");
+
+        if (formType === "login") {
+          loginForm.classList.remove("d-none");
+          registerForm.classList.add("d-none");
+          loginTab.classList.add("active");
+          registerTab.classList.remove("active");
+        } else if (formType === "register") {
+          loginForm.classList.add("d-none");
+          registerForm.classList.remove("d-none");
+          loginTab.classList.remove("active");
+          registerTab.classList.add("active");
+        }
+      }
+
+      // This function runs when the user clicks 'Log In' or 'Register'. Since I don't have a backend, I'm just simulating a successful submission using the showMessage function.
+      function handleFormSubmit(event, formName) {
+        event.preventDefault();
+
+        // IMPORTANT: I added validation here! If this is the Register form, I check if the 'Password' and 'Confirm Password' fields match before simulating success.
+        if (formName === "Register") {
+          const password = document.getElementById("register-password").value;
+          const confirmPassword = document.getElementById(
+            "register-password-confirm"
+          ).value;
+
+          if (password !== confirmPassword) {
+            showMessage(
+              "Registration failed: Passwords do not match. Please try again.",
+              "danger"
+            );
+            return;
+          }
+        }
+
+        // Simulated success message
+        const emailInput =
+          formName === "Login"
+            ? document.getElementById("login-email")
+            : document.getElementById("register-email");
+        const email = emailInput ? emailInput.value : "N/A";
+
+        showMessage(
+          `Success! Simulated ${formName} for email: ${email}`,
+          "success"
+        );
+
+        // I clear the form after a simulated successful submission.
+        event.target.reset();
+      }
+
+      // When the page finishes loading, I make sure the 'Login' form is the one visible by default.
+      document.addEventListener("DOMContentLoaded", () => {
+        showForm("login");
+      });
+    </script>
+  </body>
+</html>
