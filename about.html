@@ -29,20 +29,20 @@
     />
     <!-- LINK TO STYLE SHEET -->
     <link rel="stylesheet" href="./styles/styles.css" />
-    <link rel="stylesheet" href="./styles/about-page-styles.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
     
   </head>
 
   <body>
-    <header class="header-div">
+       <header class="header-div">
       <nav class="header-nav">
-        <h3 id="logoText">TUNE LAB</h3>
+        <a href="index.html"><h3 id="logoText">TUNE LAB</h3></a>
         <div class="header-links">
           <ul class="menu-list">
-            <li class="menu-item">Home</li>
-            <li class="menu-item">Courses</li>
-            <li class="menu-item">About</li>
-            <li class="menu-item">Contact Us</li>
+            <li class="menu-item"> <a href="./courses.html">Courses</a></li>
+            <li class="menu-item"> <a href="./pricing.html">Pricing</a></li>  
+            <li class="menu-item"> <a href="./about.html">About</a></li>
+            <li class="menu-item"> <a href="#"> </a> Contact Us</li>
           </ul>
           <div>
             <button id="login-btn" type="button" class="btn btn-outline-light">
@@ -62,12 +62,15 @@
             <i class="fa-solid fa-bars"></i>
           </button>
           <div class="dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item" style="cursor: pointer" href="#">Action</a>
-            <a class="dropdown-item" style="cursor: pointer" href="#"
-              >Another action</a
+            <a class="dropdown-item" style="cursor: pointer" href="./courses.html">Courses</a>
+            <a class="dropdown-item" style="cursor: pointer" href="./pricing.html"
+              >Pricing</a
             >
-            <a class="dropdown-item" style="cursor: pointer" href="#"
-              >Something else here</a
+            <a class="dropdown-item" style="cursor: pointer" href="./about.html"
+              >About</a
+            >
+                        <a class="dropdown-item" style="cursor: pointer" href="#"
+              >Contact Us</a
             >
             <div class="dropdown-divider"></div>
             <a class="dropdown-item b" href="#">
@@ -75,6 +78,8 @@
             >
           </div>
         </div>
+
+        <!-- <button id="lo gin-btn" type="button" class="btn btn-primary">Login</button> -->
       </nav>
     </header>
 
@@ -120,7 +125,7 @@
             <div class="instructors-grid">
               <!-- Card 1 -->
               <article class="instructor-card" data-aos="fade-up">
-                <img src="assets/teacher.jpeg" alt="Piano instructor" class="teacher-img">
+                <img src="./assets/teacher.jpeg" alt="Piano instructor" class="teacher-img">
                 <h3>Alex Morgan</h3>
                 <p class="role">Piano • Beginners to Intermediate</p>
                 <p class="teacher-bio hidden" class="blackonwhite">

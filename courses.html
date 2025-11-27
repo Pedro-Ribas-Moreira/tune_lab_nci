@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Courses</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:wght@400;700&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- IMPORT BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- IMPORT FONT AWES -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="./styles/courses.css" />
+  </head>
+
+  <body>
+    <div class="backgroundGradient"></div>
+    <header class="header-div">
+      <nav class="header-nav">
+        <a href="index.html"><h3 id="logoText">TUNE LAB</h3></a>
+        <div class="header-links">
+          <ul class="menu-list">
+            <li class="menu-item"><a href="./courses.html">Courses</a></li>
+            <li class="menu-item"><a href="./pricing.html">Pricing</a></li>
+            <li class="menu-item"><a href="./about.html">About</a></li>
+            <li class="menu-item"><a href="#"> </a> Contact Us</li>
+          </ul>
+          <div>
+            <button id="login-btn" type="button" class="btn btn-outline-light">
+              <i class="fa-solid fa-user"></i> Login
+            </button>
+          </div>
+        </div>
+
+        <div class="btn-group" id="small-display-menu">
+          <button
+            type="button"
+            class="btn btn-outline-light dropdown-toggle"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a
+              class="dropdown-item"
+              style="cursor: pointer"
+              href="./courses.html"
+              >Courses</a
+            >
+            <a
+              class="dropdown-item"
+              style="cursor: pointer"
+              href="./pricing.html"
+              >Pricing</a
+            >
+            <a class="dropdown-item" style="cursor: pointer" href="./about.html"
+              >About</a
+            >
+            <a class="dropdown-item" style="cursor: pointer" href="#"
+              >Contact Us</a
+            >
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item b" href="#">
+              <i class="fa-solid fa-user"></i> Login</a
+            >
+          </div>
+        </div>
+
+        <!-- <button id="lo gin-btn" type="button" class="btn btn-primary">Login</button> -->
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Discover Your Musical Talent</h1>
+      <p>Learn, Create, and Perform with Our Expert-Led Courses</p>
+    </section>
+
+    <section class="courses-section">
+      <div class="courses-title">
+        <h1>Our Courses</h1>
+        <p class="subtitle">
+          Explore high-quality music education tailored to every skill level.
+        </p>
+      </div>
+
+      <div class="courses-grid">
+        <div
+          class="course-card"
+          data-modal="modal-production"
+          style="background-image: url(&quot;../assets/Production.jpg&quot;)"
+        >
+          <div class="card-overlay">
+            <h2>Music Production</h2>
+          </div>
+        </div>
+
+        <div
+          class="course-card"
+          data-modal="modal-drums"
+          style="background-image: url(&quot;../assets/Drums-Lesson.png&quot;)"
+        >
+          <div class="card-overlay">
+            <h2>Drums</h2>
+          </div>
+        </div>
+
+        <div
+          class="course-card"
+          data-modal="modal-piano"
+          style="background-image: url(&quot;../assets/Piano-Lesson.png&quot;)"
+        >
+          <div class="card-overlay">
+            <h2>Piano & Keyboard</h2>
+          </div>
+        </div>
+
+        <div
+          class="course-card"
+          data-modal="modal-guitar"
+          style="background-image: url(&quot;../assets/Guitar-Lesson.jpg&quot;)"
+        >
+          <div class="card-overlay">
+            <h2>Guitar</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="modal-production" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="../assets/ProductionModal.png" class="modal-image" />
+        <h2>Music Production Course</h2>
+        <p>
+          Turn your passion for sound into powerful, professional tracks! This
+          hands-on course takes you inside the world of modern music production
+          — from beat-making and recording to mixing and mastering. Learn to
+          work with top industry software, craft your own unique sound, and
+          bring your creative vision to life. Whether you dream of producing for
+          artists, film, or gaming, this course gives you the skills and
+          confidence to make it happen.
+        </p>
+        <h3>What You’ll Learn</h3>
+        <ul>
+          <li>Understanding DAWs (Logic, FL Studio, Ableton, etc)</li>
+          <li>Beat-making & MIDI programming</li>
+          <li>Recording vocals & instruments</li>
+          <li>Sound design & synth basics</li>
+          <li>Mixing essentials (EQ, compression, effects)</li>
+          <li>Mastering and exporting a final track</li>
+        </ul>
+
+        <h3>Course Outline</h3>
+        <ul>
+          <li><strong>Lesson 1:</strong> Introduction to DAWs & Workflow</li>
+          <li><strong>Lesson 2:</strong> Making Beats & Using MIDI</li>
+          <li><strong>Lesson 3:</strong> Recording Techniques</li>
+          <li><strong>Lesson 4:</strong> Editing & Arranging</li>
+          <li><strong>Lesson 5:</strong> Mixing Fundamentals</li>
+          <li><strong>Lesson 6:</strong> Mastering & Final Export</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="modal-drums" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="../assets/DrumModal.jpg" class="modal-image" />
+        <h2>Drumming Course</h2>
+        <p>
+          Feel the rhythm and unleash your inner percussionist! Our drumming
+          course is designed to get you playing powerful beats and dynamic
+          grooves from day one. Learn essential techniques, stick control,
+          timing, and how to play in a band or record your own tracks. Whether
+          you’re into rock, jazz, funk, or pop — you’ll build the confidence and
+          skill to command any stage or studio.
+        </p>
+        <h3>What You’ll Learn</h3>
+        <ul>
+          <li>Grip, posture & basic technique</li>
+          <li>Rock, pop & funk grooves</li>
+          <li>Drum notation basics</li>
+          <li>Drum fills & transitions</li>
+          <li>Coordination & independence</li>
+          <li>Playing along with real songs</li>
+        </ul>
+
+        <h3>Course Outline</h3>
+        <ul>
+          <li><strong>Lesson 1:</strong> Technique & simple rhythms</li>
+          <li><strong>Lesson 2:</strong> Essential grooves</li>
+          <li><strong>Lesson 3:</strong> Fills & creativity</li>
+          <li><strong>Lesson 4:</strong> Reading & counting</li>
+          <li><strong>Lesson 5:</strong> Independence training</li>
+          <li><strong>Lesson 6:</strong> Full-song performance</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="modal-piano" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="../assets/PianoModal.jpg" class="modal-image" />
+        <h2>Piano & Keyboard Course</h2>
+        <p>
+          Unlock the language of music through the keys! This course combines
+          creativity and technique, helping you master chords, melodies, and
+          harmony while developing a strong ear for music. Learn to play your
+          favorite songs, compose your own pieces, and explore both classical
+          and contemporary styles — all with the guidance of passionate,
+          professional instructors.
+        </p>
+        <h3>What You’ll Learn</h3>
+        <ul>
+          <li>Proper hand technique</li>
+          <li>Reading notation or chord sheets</li>
+          <li>Major & minor scales</li>
+          <li>Chord progressions</li>
+          <li>Melody-and-chords song playing</li>
+          <li>Using digital keyboard sounds</li>
+        </ul>
+
+        <h3>Course Outline</h3>
+        <ul>
+          <li><strong>Lesson 1:</strong> Intro & finger exercises</li>
+          <li><strong>Lesson 2:</strong> Reading music / chord basics</li>
+          <li><strong>Lesson 3:</strong> Scales & patterns</li>
+          <li><strong>Lesson 4:</strong> Chord progressions</li>
+          <li><strong>Lesson 5:</strong> Melody & two-hand playing</li>
+          <li><strong>Lesson 6:</strong> Complete song performance</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="modal-guitar" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="../assets/GuitarModal.png" class="modal-image" />
+        <h2>Guitar Course</h2>
+        <p>
+          Turn up the volume and let your talent shine! Our guitar course covers
+          everything from strumming your first chords to shredding solos and
+          improvising with confidence. Explore acoustic and electric guitar
+          techniques, music theory, and performance skills — all while learning
+          the songs and styles you love. Perfect for beginners and seasoned
+          players ready to take their sound to the next level.
+        </p>
+
+        <h3>What You’ll Learn</h3>
+        <ul>
+          <li>Basic chords & transitions</li>
+          <li>Strumming patterns and rhythm</li>
+          <li>Tabs & simple riffs</li>
+          <li>Fingerstyle basics</li>
+          <li>Pentatonic scale & intro to solos</li>
+          <li>Playing full songs</li>
+        </ul>
+
+        <h3>Course Outline</h3>
+        <ul>
+          <li><strong>Lesson 1:</strong> Tuning & first chords</li>
+          <li><strong>Lesson 2:</strong> Strumming patterns</li>
+          <li><strong>Lesson 3:</strong> Tabs & riffs</li>
+          <li><strong>Lesson 4:</strong> Chord progressions</li>
+          <li><strong>Lesson 5:</strong> Scales & improvisation</li>
+          <li><strong>Lesson 6:</strong> Play a complete song</li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="testimonials">
+      <h2>What Our Students Say</h2>
+
+      <div class="testimonials-grid">
+        <div class="testimonial">
+          <p class="quote">
+            “The music production course completely transformed my workflow.
+            Highly recommended!”
+          </p>
+          <p class="author">– Alex M.</p>
+        </div>
+
+        <div class="testimonial">
+          <p class="quote">
+            “Amazing drumming lessons! I improved faster than I expected.”
+          </p>
+          <p class="author">– Sarah K.</p>
+        </div>
+
+        <div class="testimonial">
+          <p class="quote">
+            “Friendly teachers and fun piano classes. My confidence has grown so
+            much.”
+          </p>
+          <p class="author">– Daniel R.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="book-course-section">
+      <a href="pricing.html" class="book-btn">Book a Course</a>
+    </div>
+
+    <!-- <footer id="main-footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <p>&copy; 2025 Tune Lab. All rights reserved.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="#" aria-label="YouTube"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-column">
+            <h5>Platform</h5>
+            <ul>
+              <li><a href="#">Courses</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Login</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h5>Company</h5>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Career</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h5>Support</h5>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Help Center / FAQ</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+    <footer id="main-footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <p>&copy; 2025 Tune Lab. All rights reserved.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="#" aria-label="YouTube"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-column">
+            <h5>Platform</h5>
+            <ul>
+              <li><a href="#">Courses</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Login</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h5>Company</h5>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Career</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h5>Support</h5>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Help Center / FAQ</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../scripts/courses.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

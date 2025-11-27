@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
-.title-header{
+.title-header {
   border: 2px solid white;
   border-radius: var(--border-radius-px);
   padding: 8px;
@@ -32,7 +32,7 @@ html {
   width: 100%;
   height: auto;
   display: block;
-  opacity: 0.40; /* adjust value 0–1 */
+  opacity: 0.4; /* adjust value 0–1 */
   transition: opacity 0.3s ease; /* smooth hover fade */
 }
 
@@ -40,8 +40,7 @@ html {
   width: 100%;
   height: auto;
   display: block;
-  opacity: 0.70; /* adjust value 0–1 */
-  
+  opacity: 0.7; /* adjust value 0–1 */
 }
 
 .column img:hover {
@@ -51,19 +50,18 @@ html {
 /* Text overlay settings */
 .overlay-text {
   position: absolute;
-  bottom: 12px;              /* move text up/down */
-  left: 12px;                /* move text left/right */
+  bottom: 12px; /* move text up/down */
+  left: 12px; /* move text left/right */
   color: white;
   font-size: 1.4rem;
   font-weight: 600;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.6); /* makes text readable */
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6); /* makes text readable */
 }
 
 /* container and column styles */
 .grid-container {
-    
-    width:100%;
-    padding: 100px;
+  width: 100%;
+  padding: 100px;
 }
 
 .row {
@@ -71,9 +69,9 @@ html {
 }
 
 .column {
-    flex: 50%;
-    max-width: 50%;
-    padding: 0;
+  flex: 50%;
+  max-width: 50%;
+  padding: 0;
 }
 
 .column:first-child {
@@ -88,27 +86,25 @@ html {
   flex: 0 0 30%;
 }
 
-.column-right img{
+.column-right img {
   margin-top: 24px;
 }
 
 p {
-    text-transform: none;
+  text-transform: none;
 }
-
 
 /* pricing section styles */
 .pricing-section {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
-  
 }
 
 .course {
-    margin-bottom: 40px;
-    text-transform: none;
-    margin-left: 8px;
+  margin-bottom: 40px;
+  text-transform: none;
+  margin-left: 8px;
 }
 
 .pricing-list {
@@ -135,7 +131,7 @@ p {
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 .price-calculator select,
@@ -152,30 +148,27 @@ p {
 }
 
 .center-wrapper {
-    
-    display: flex;
-    justify-content: center;  /* horizontal */
-    align-items: center;      /* vertical */
-    
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
 }
-
 
 /*When viewed on smaller screens */
 
 @media (max-width: 768px) {
-    .row {
+  .row {
     flex-direction: column;
   }
 
-    .column {
+  .column {
     flex: 100%;
     max-width: 100%;
-    padding: 0px; 
+    padding: 0px;
     border-right: none !important; /* remove vertical divider on mobile */
     border-bottom: none !important; /* ensure no leftover row borders */
   }
 
-    .image-overlay {
+  .image-overlay {
     display: block; /* <-- Instead of inline-block */
     width: 100%;
   }
@@ -185,22 +178,21 @@ p {
     height: auto;
     display: block;
   }
-  
-    .grid-container {
-    padding: 40px; 
+
+  .grid-container {
+    padding: 40px;
   }
 
-    .column img {
+  .column img {
     width: 100%;
     height: auto;
-    
   }
 
-    .column-left {
-    width:100%
-}
+  .column-left {
+    width: 100%;
+  }
 
-    .column-right {
+  .column-right {
     display: none;
-}
+  }
 }

@@ -56,7 +56,10 @@ header {
   display: flex;
   height: 80px;
 }
-
+header a {
+  text-decoration: inherit;
+  color: inherit;
+}
 .header-nav {
   display: flex;
   align-items: center;
@@ -146,4 +149,93 @@ header {
   #small-display-menu {
     display: block;
   }
+}
+
+/* --- FOOTER SECTION --- */
+#main-footer {
+  background-color: #ffffff;
+  color: #333; /* Dark text color for readability */
+  padding: 50px 0;
+  margin-top: 60px; /* Space above the footer */
+  font-family: var(--font-body, "Inter", sans-serif);
+}
+
+.footer-container {
+  max-width: 1200px; /* Match other sections */
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap; /* Allows stacking on mobile */
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 250px; /* Ensures it doesn't get too squished */
+}
+
+.footer-left p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0 0 20px 0;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 18px;
+}
+
+.footer-socials a {
+  color: #333; /* Icon color */
+  font-size: 1.25rem; /* Makes icons a bit larger */
+  transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: var(--color-bright-blue); /* Use your existing variable */
+}
+
+.footer-links-grid {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Gap between columns on wrap */
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 160px; /* Helps with responsive wrapping */
+}
+
+.footer-column h5 {
+  font-family: var(--font-body, "Inter", sans-serif);
+  font-weight: 700; /* Bold */
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: var(--color-bright-blue);
+  text-decoration: underline;
 }
