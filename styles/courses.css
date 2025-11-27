@@ -54,7 +54,7 @@
 } */
 
 .hero {
-  /* background: url("../assets/HeroBackground.jpg") center/cover no-repeat; */
+  background: url("../assets/HeroBackground.jpg") center/cover no-repeat;
   height: 400px;
   display: flex;
   flex-direction: column;
