@@ -1,3 +1,18 @@
+/* Philip Weir - pricing.html creator - 2 December 2025 */
+.title-header {
+  border: 2px solid white;
+  border-radius: var(--border-radius-px);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-header);
+  font-size: 2rem; /* 32px */
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
 p {
   text-transform: none !important;
 }
@@ -78,7 +93,7 @@ p {
   grid-template-columns: repeat(2, 1fr);
   gap: 28px;
   margin-top: 28px;
-  align-items: stretch; /* <— keeps rows even */
+  align-items: stretch; 
 }
 
 /* CARDS */
@@ -90,7 +105,7 @@ p {
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   text-align: center;
 
-  display: flex;              /* <— keeps heights consistent */
+  display: flex;              
   flex-direction: column;
   justify-content: flex-start;
   height: 100%;
@@ -102,11 +117,11 @@ p {
   font-size: 0.95rem;
 }
 
-/* Fix unreadable bio text */
+/* Bio text */
 .teacher-bio {
   margin: 12px 0 0;
   font-size: 0.95rem;
-  color: #333;          /* <— readable on white */
+  color: #333;          
   line-height: 1.45;
   transition: all .2s ease;
 }
@@ -118,9 +133,9 @@ p {
   display: inline-block;
   margin-top: 14px;
   margin-left: auto;
-  margin-right: auto;   /* <— horizontally centers the button */
-  padding: 10px 18px; /* keep original height */
-  width: 110px;       /* <— make the button narrower */
+  margin-right: auto;   
+  padding: 10px 18px; 
+  width: 110px;       
   background: #5E9ABF;
   color: #fff;
   border: 0;
@@ -128,14 +143,14 @@ p {
   font-size: 0.9rem;
   cursor: pointer;
   transition: background .2s ease, transform .05s ease;
-  text-align: center; /* keeps text centered */
+  text-align: center; 
   
 }
 
 .toggle-bio:hover { background: #0C89D5; }
 .toggle-bio:active { transform: translateY(1px); }
 
-/* Single column on small screens */
+
 @media (max-width: 720px) {
   .instructors-grid {
     grid-template-columns: 1fr;
