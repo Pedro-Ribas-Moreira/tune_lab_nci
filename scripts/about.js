@@ -1,4 +1,5 @@
-// Find every toggle button and wire it up to its card
+/* Philip Weir - pricing.html creator - 2 December 2025 */
+
 document.querySelectorAll(".toggle-bio").forEach((btn) => {
   btn.addEventListener("click", () => {
     const card = btn.closest(".instructor-card");
