@@ -1,3 +1,5 @@
+/* Philip Weir - pricing.html creator - 2 December 2025 */
+
 const prices = {
   child: { lesson: 20, bundle: 70 },
   student: { lesson: 25, bundle: 90 },
