@@ -257,15 +257,16 @@ p {
 }
 
 .btn-primary {
-  background-color: #0F9BF2 !important;
-  border-color: #0F9BF2 !important;
+  background-color: #011826 !important;
+  border: px solid #5E9ABF !important;
+  color: #fff!important;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background-color: #0C89D5 !important; 
-  border-color: #0C89D5 !important;
+  background-color: #260101 !important; 
+  border-color: #260101 !important;
 }
 
 /*When viewed on smaller screens */
