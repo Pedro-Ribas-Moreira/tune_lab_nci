@@ -1,0 +1,87 @@
+/* --- Contact Details Section --- */
+#contact-details {
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+  padding: 36px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact-elements {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Individual Item Containers */
+.contact-div {
+  border: 2px solid #e0e0e0;
+  padding: 24px;
+  border-radius: var(--border-radius-px);
+  min-width: 300px;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Icons */
+#contact-details i {
+  font-size: 32px;
+}
+.icon-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* --- Contact Form Section --- */
+#contact-section {
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+  padding: 36px;
+  min-height: 400px;
+  display: flex;
+  gap: 40px;
+  /* justify-content: space-around; */
+}
+
+.contact-image {
+  flex: 1;
+  width: 100%;
+  border-radius: var(--border-radius-px);
+}
+
+.contact-image img {
+  width: 100%; /* Makes the image responsive */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 8px; /* Optional: rounds the corners */
+  object-fit: cover; /* Ensures image fills space nicely */
+}
+.contact-container {
+  flex: 1;
+}
+
+#contact-form {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Form Inputs (IDs) */
+#name {
+}
+
+#email {
+}
+
+#message {
+}
+
+/* Buttons */
+.btn {
+}
+
+.btn-primary {
+}

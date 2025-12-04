@@ -29,7 +29,7 @@
     />
     <!-- LINK TO STYLE SHEET -->
     <link rel="stylesheet" href="./styles/styles.css" />
-    <link rel="stylesheet" href="./styles/landingPage.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
   </head>
 
   <body>
@@ -38,10 +38,10 @@
         <a href="index.html"><h3 id="logoText">TUNE LAB</h3></a>
         <div class="header-links">
           <ul class="menu-list">
-            <li class="menu-item"> <a href="./courses.html">Courses</a></li>
-            <li class="menu-item"> <a href="./pricing.html">Pricing</a></li>  
-            <li class="menu-item"> <a href="./about.html">About</a></li>
-            <li class="menu-item"> <a href="./contact.html">  Contact Us</a>  </li>
+            <li class="menu-item"><a href="./courses.html">Courses</a></li>
+            <li class="menu-item"><a href="./pricing.html">Pricing</a></li>
+            <li class="menu-item"><a href="./about.html">About</a></li>
+            <li class="menu-item"><a href="./contact.html"> Contact Us</a></li>
           </ul>
           <div>
             <button id="login-btn" type="button" class="btn btn-outline-light">
@@ -61,14 +61,22 @@
             <i class="fa-solid fa-bars"></i>
           </button>
           <div class="dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item" style="cursor: pointer" href="./courses.html">Courses</a>
-            <a class="dropdown-item" style="cursor: pointer" href="./pricing.html"
+            <a
+              class="dropdown-item"
+              style="cursor: pointer"
+              href="./courses.html"
+              >Courses</a
+            >
+            <a
+              class="dropdown-item"
+              style="cursor: pointer"
+              href="./pricing.html"
               >Pricing</a
             >
             <a class="dropdown-item" style="cursor: pointer" href="./about.html"
               >About</a
             >
-                        <a class="dropdown-item" style="cursor: pointer" href="#"
+            <a class="dropdown-item" style="cursor: pointer" href="#"
               >Contact Us</a
             >
             <div class="dropdown-divider"></div>
@@ -82,117 +90,61 @@
       </nav>
     </header>
 
-    <!-- LANDING PAGE -->
-
-    <div class="backgroundGradient"></div>
-
-    <section id="hero-section">
-      <div class="hero-text">
-        <!-- <p class="eyebrow">LEARN MUSIC PRODUCTION</p> -->
-        <h3 id="hero-header">MASTER YOUR SOUND <br />LEARN FROM THE PROS</h3>
-        <!-- <h3 id="hero-header">Master Your Sound. <br>Learn from the Pros.</h3> -->
-        <p>
-          Stop dreaming. Start playing. <br />Learn with industry-leading
-          instructors.
-        </p>
-        <button id="hero-div-btn" type="button" class="btn btn-primary">
-          Explore Courses
-        </button>
-      </div>
-
-      <canvas id="wave-canvas"></canvas>
-    </section>
-
-    <!-- SECOND SECTION - COURSES -->
-    <section id="courses-section">
-      <div class="section-title">
-        <p>FIND YOUR RHYTHM</p>
-      </div>
-
-      <div class="courses">
-        <div class="course top-div">
-          <div class="cover-color-transparent"></div>
-          <video src="./assets/mixing.mp4" type="video/mp4"class="video-asset""></video>
-          <div class="top-label">
-            <span>Digital Audio Mixing<br />Balancing</span>
-            <h2>Music Production</h2>
+    <section id="contact-details">
+      <h2>Let's Get in Touch</h2>
+      <div class="contact-elements">
+        <div class="contact-div">
+          <div class="icon-div">
+            <h3>Phone</h3>
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="phone-info">
+            <p>+1 (555) 123-4567</p>
           </div>
         </div>
 
-        <div class="course left-div">
-                              <div class="cover-color-transparent"></div>
-
-          <video src="./assets/drummer.mp4" type="video/mp4"class="video-asset""></video>
-          <div class="left-label">
-            <h2>Drums & Percussion</h2>
-            <span>Rhythm, Timming and<br />Technique</span>
+        <div class="contact-div">
+          <div class="icon-div">
+            <h3>Email</h3>
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="email-info">
+            <p>contact@tunelab.ie</p>
           </div>
         </div>
 
-        <div class="course right-div">
-                    <div class="cover-color-transparent"></div>
-
-         <video src="./assets/guitar solo.mp4" type="video/mp4"class="video-asset""></video>
-          <div class="right-label">
-            <h2>Guitar</h2>
-            <span>Chords & Scales</span>
+        <div class="contact-div">
+          <div class="icon-div">
+            <h3>Address</h3>
+            <i class="fa-solid fa-location-dot"></i>
           </div>
-         
-        </div>
-      </div>
-    </section>
-
-    <!-- news sections -->
-    <section id="news-section">
-      <div class="section-title">
-        <p>NEWS / ARTICLES / EVENTS</p>
-      </div>
-
-      <div class="news-grid">
-        <div class="news-card news-card--large" id="news-card-event">
-          <span class="news-card__label news-card__label--tl">Next Event</span>
-          <div class="news-card__content">
-            <h2 class="news-card__title">
-              Live Workshop: Drumming Dynamics with Chad Smith
-            </h2>
-            <p class="news-card__text">
-              Join our exclusive 2-hour live Q&A and technique session.
-            </p>
-          </div>
-          <span class="news-card__label news-card__label--br"
-            >November 15, 2025</span
-          >
-        </div>
-
-        <div class="news-column-right">
-          <div class="news-card news-card--small" id="news-card-award">
-            <span class="news-card__label news-card__label--tr"
-              >Great news!</span
-            >
-            <div class="news-card__content">
-              <h2 class="news-card__title">
-                Tune Lab Named "Best Online Music School"
-              </h2>
-            </div>
-          </div>
-
-          <div class="news-card news-card--small" id="news-card-article">
-            <span class="news-card__label news-card__label--tr">Article</span>
-            <div class="news-card__content">
-              <h2 class="news-card__title">
-                5 Essential Scales Every Guitarist Should Know
-              </h2>
-              <p class="news-card__text">
-                A deep dive into the theory behind iconic solos.
-              </p>
-            </div>
+          <div class="addressinfo">
+            <p>123 Music Lane, Dublin, Ireland</p>
           </div>
         </div>
       </div>
     </section>
-    <section id="testimonials-section"></section>
+    <section id="contact-section">
+      <div class="contact-image">
+        <img src="./assets/Production.jpg" alt="Contact Us Image" />
+      </div>
+      <div class="contact-container">
+        <h2>Or fill out the form below:</h2>
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
 
-    <section id="offer-section"></section>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
     <footer id="main-footer">
       <div class="footer-container">
         <div class="footer-left">
@@ -244,8 +196,6 @@
         </div>
       </div>
     </footer>
-    <script src="./scripts/script.js"></script>
-
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
