@@ -58,16 +58,16 @@ p {
 .button {
   display: inline-block;
   padding: 14px 28px;
-  background-color: #5E9ABF; 
+  background-color: #011826; 
   color: #fff;               
-  border: 2px solid #fff;    
+  border: 2px solid #5E9ABF;    
   border-radius: 6px;
   text-decoration: none;
   transition: 0.3s;
 }
 
 .button:hover {
-  background: #0C89D5; 
+  background: #260101; 
   transform: translateY(-1px);
 }
 
@@ -136,10 +136,11 @@ p {
   margin-right: auto;   
   padding: 10px 18px; 
   width: 110px;       
-  background: #5E9ABF;
+  background-color: #011826;
   color: #fff;
   border: 0;
   border-radius: 6px;
+  border: 2px solid #5E9ABF;    
   font-size: 0.9rem;
   cursor: pointer;
   transition: background .2s ease, transform .05s ease;
@@ -147,7 +148,7 @@ p {
   
 }
 
-.toggle-bio:hover { background: #0C89D5; }
+.toggle-bio:hover { background: #260101; }
 .toggle-bio:active { transform: translateY(1px); }
 
 
