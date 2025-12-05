@@ -82,6 +82,7 @@ h2 {
 /* Grid layout */
 .courses-grid {
   margin-top: 40px;
+  [adding: 30px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
