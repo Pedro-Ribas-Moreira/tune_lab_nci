@@ -11,3 +11,7 @@
   CONTACT PAGE STYLES
   
 --- */
+
+h2 {
+  font-family: var(--font-header);
+}

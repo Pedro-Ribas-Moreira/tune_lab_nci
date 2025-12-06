@@ -63,6 +63,7 @@ header {
   display: flex;
   height: 80px;
   text-transform: uppercase;
+  z-index: 30;
 }
 header a {
   text-decoration: inherit;
@@ -142,21 +143,6 @@ header a {
 /* HIDDEN MENU - Available on small screens */
 #small-display-menu {
   display: none;
-}
-
-@media screen and (max-width: 1800px) {
-  .header-nav {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .header-links {
-    display: none;
-  }
-  #small-display-menu {
-    display: block;
-  }
 }
 
 /* --- FOOTER SECTION --- */
@@ -246,4 +232,19 @@ header a {
 .footer-column a:hover {
   color: var(--color-bright-blue);
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1800px) {
+  .header-nav {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header-links {
+    display: none;
+  }
+  #small-display-menu {
+    display: block;
+  }
 }

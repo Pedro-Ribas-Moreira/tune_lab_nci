@@ -104,19 +104,12 @@
   gap: 24px;
 }
 
-/* Form Inputs (IDs) */
-#name {
-}
-
-#email {
-}
-
-#message {
-}
-
-/* Buttons */
-.btn {
-}
-
-.btn-primary {
+@media screen and (max-width: 800px) {
+  .contact-image {
+    display: none;
+  }
+  .contact-div:not(:last-child) {
+    border-right: none;
+    border-bottom: 2px solid #fff;
+  }
 }
