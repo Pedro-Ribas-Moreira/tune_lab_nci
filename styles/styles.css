@@ -1,8 +1,19 @@
-/* shared styles */
+/* 
+  Pedro Moreira
+  x22140034
+  x22140034@student.ncirl.ie
 
-/* 1. Import Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+  Date: 06/12/2025
+  Higher Diploma in Computing  
+  Web Design Client-Side Scripting
+   
+*/
+
+/* Global Styles & Visual Identity
+  ---------------------------------
+  Defines the site-wide color palette, typography, and shared layout 
+  components (header and footer) to ensure design consistency.
+*/
 
 /* 2. Define Color Variables */
 :root {
@@ -11,6 +22,7 @@
   --color-light-text: #fff;
   --color-steel-blue: #305368;
   --color-steel-blue-shadow: #14679b73;
+  --color-light-grey: #868686;
   --color-teal: #6bbfbf;
   --color-dark-brown: #260101;
   --color-light-brown: #361919;
@@ -36,10 +48,6 @@ body {
   z-index: -100;
   top: 0;
   left: 0;
-
-  /* background-image: url("/assets/vinilBackground.png");
-  background-size: cover;
-  background-repeat: no-repeat; */
   background: #011826;
   background: linear-gradient(
     172deg,
@@ -153,31 +161,31 @@ header a {
 
 /* --- FOOTER SECTION --- */
 #main-footer {
-  background-color: #ffffff;
-  color: #333; /* Dark text color for readability */
+  background-color: var(--color-light-text);
+  color: var(--color-light-grey);
   padding: 50px 0;
-  margin-top: 60px; /* Space above the footer */
+  margin-top: 60px;
   font-family: var(--font-body, "Inter", sans-serif);
 }
 
 .footer-container {
-  max-width: 1200px; /* Match other sections */
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
-  flex-wrap: wrap; /* Allows stacking on mobile */
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
 }
 
 .footer-left {
   flex: 1;
-  min-width: 250px; /* Ensures it doesn't get too squished */
+  min-width: 250px;
 }
 
 .footer-left p {
   font-size: 0.9rem;
-  color: #555;
+  color: var(--color-light-grey);
   margin: 0 0 20px 0;
 }
 
@@ -187,7 +195,7 @@ header a {
 }
 
 .footer-socials a {
-  color: #333; /* Icon color */
+  color: var(--color-dark-blue); /* Icon color */
   font-size: 1.25rem; /* Makes icons a bit larger */
   transition: color 0.3s ease;
 }
@@ -201,21 +209,21 @@ header a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px; /* Gap between columns on wrap */
+  gap: 20px;
 }
 
 .footer-column {
   flex: 1;
-  min-width: 160px; /* Helps with responsive wrapping */
+  min-width: 160px;
 }
 
 .footer-column h5 {
-  font-family: var(--font-body, "Inter", sans-serif);
-  font-weight: 700; /* Bold */
+  font-family: var(--font-body);
+  font-weight: 700;
   font-size: 1rem;
   margin-top: 0;
   margin-bottom: 15px;
-  color: #000;
+  color: var(--color-dark-blue);
 }
 
 .footer-column ul {
@@ -230,7 +238,7 @@ header a {
 
 .footer-column a {
   text-decoration: none;
-  color: #555;
+  color: var(--color-steel-blue);
   font-size: 0.9rem;
   transition: color 0.3s ease;
 }

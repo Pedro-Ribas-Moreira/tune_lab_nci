@@ -1,9 +1,27 @@
+<!-- 
+  
+  Pedro Moreira
+  x22140034
+  x22140034@student.ncirl.ie
+
+  Date: 06/12/2025
+  Higher Diploma in Computing  
+  Web Design Client-Side Scripting
+   
+  LANDING PAGE
+
+-->
+
+
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TUNE LAB</title>
+    <!-- <meta name="DESCRIPTION" content=""></meta> -->
+
+    
     <!-- IMPORT FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -88,15 +106,13 @@
 
     <section id="hero-section">
       <div class="hero-text">
-        <!-- <p class="eyebrow">LEARN MUSIC PRODUCTION</p> -->
-        <h3 id="hero-header">MASTER YOUR SOUND <br />LEARN FROM THE PROS</h3>
-        <!-- <h3 id="hero-header">Master Your Sound. <br>Learn from the Pros.</h3> -->
+        <h1 id="hero-header">MASTER YOUR SOUND <br />LEARN FROM THE PROS</h1>
         <p>
           Stop dreaming. Start playing. <br />Learn with industry-leading
           instructors.
         </p>
         
-        <button id="hero-div-btn" type="button" class="btn btn-outline-light fw-bold" onclick="document.location='./courses.html'">
+        <button id="hero-div-btn" type="button" class="btn btn-light fw-bold" onclick="document.location='./courses.html'">
           Explore Courses
         </button>
       </div>
@@ -107,7 +123,7 @@
     <!-- SECOND SECTION - COURSES -->
     <section id="courses-section">
       <div class="section-title">
-        <p>FIND YOUR RHYTHM</p>
+        <h2>FIND YOUR RHYTHM</h2>
       </div>
 
       <div class="courses">
@@ -116,7 +132,7 @@
           <video src="./assets/mixing.mp4" type="video/mp4"class="video-asset""></video>
           <div class="top-label">
             <span>Digital Audio Mixing<br />Balancing</span>
-            <h2>Music Production</h2>
+            <h3>Music Production</h3>
           </div>
         </div>
 
@@ -124,7 +140,7 @@
         <div class="cover-color-transparent"></div>
           <video src="./assets/drummer.mp4" type="video/mp4"class="video-asset""></video>
           <div class="left-label">
-            <h2>Drums & Percussion</h2>
+            <h3>Drums & Percussion</h3>
             <span>Rhythm, Timming and<br />Technique</span>
           </div>
         </div>
@@ -134,7 +150,7 @@
 
          <video src="./assets/guitar solo.mp4" type="video/mp4"class="video-asset""></video>
           <div class="right-label">
-            <h2>Guitar</h2>
+            <h3>Guitar</h3>
             <span>Chords & Scales</span>
           </div>
          
@@ -143,56 +159,32 @@
     </section>
 
     <!-- news sections -->
-    <section id="news-section">
-      <div class="section-title">
-        <p>NEWS / ARTICLES / EVENTS</p>
-      </div>
 
-      <div class="news-grid">
-        <div class="news-card news-card--large" id="news-card-event">
-          <span class="news-card__label news-card__label--tl">Next Event</span>
-          <div class="news-card__content">
-            <h2 class="news-card__title">
-              Live Workshop: Drumming Dynamics with Chad Smith
-            </h2>
-            <p class="news-card__text">
-              Join our exclusive 2-hour live Q&A and technique session.
-            </p>
-          </div>
-          <span class="news-card__label news-card__label--br"
-            >November 15, 2025</span
-          >
-        </div>
+<section id="news-section">
+  <div class="section-title">
+    <h2>NEWS / ARTICLES / EVENTS</h2>
+  </div>
 
-        <div class="news-column-right">
-          <div class="news-card news-card--small" id="news-card-award">
-            <span class="news-card__label news-card__label--tr"
-              >Great news!</span
-            >
-            <div class="news-card__content">
-              <h2 class="news-card__title">
-                Tune Lab Named "Best Online Music School"
-              </h2>
-            </div>
-          </div>
+  <div class="news-div" onclick="document.location='./login.html'">
+    <h3>LIVE WORKSHOP: DRUMMING DYNAMICS WITH CHAD SMITH</h3>
+    <p>JOIN OUR EXCLUSIVE 2-HOUR LIVE Q&A AND TECHNIQUE SESSION ON MARCH 15TH.</p>
+    <span class="news-type"><i class="fa-solid fa-calendar-day"></i> EVENT</span>
+  </div>
 
-          <div class="news-card news-card--small" id="news-card-article">
-            <span class="news-card__label news-card__label--tr">Article</span>
-            <div class="news-card__content">
-              <h2 class="news-card__title">
-                5 Essential Scales Every Guitarist Should Know
-              </h2>
-              <p class="news-card__text">
-                A deep dive into the theory behind iconic solos.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="testimonials-section"></section>
+  <div class="news-div" onclick="window.open('https://www.rollingstone.com/music/');">
+    <h3>TUNE LAB NAMED "BEST ONLINE MUSIC SCHOOL"</h3>
+    <p>RECOGNIZED BY ROLLING STONES MAGAZINE FOR EXCELLENCE IN MUSIC EDUCATION AND STUDENT SUCCESS.</p>
+    <span class="news-type"><i class="fa-solid fa-bullhorn"></i> NEWS</span>
+  </div>
 
-    <section id="offer-section"></section>
+  <div class="news-div" onclick="window.open('https://www.fender.com/articles/scales/5-essential-guitar-scales-for-beginners');">
+    <h3>5 ESSENTIAL SCALES EVERY GUITARIST SHOULD KNOW</h3>
+    <p>A DEEP DIVE INTO THE THEORY BEHIND ICONIC SOLOS.</p>
+    <span class="news-type"><i class="fa-solid fa-book-open"></i> ARTICLE</span>
+  </div>
+</section>
+ 
+
     <footer id="main-footer">
       <div class="footer-container">
         <div class="footer-left">
@@ -226,7 +218,7 @@
           <div class="footer-column">
             <h5>Company</h5>
             <ul>
-              <li><a href="#">About Us</a></li>
+              <li><a href="./about.html">About Us</a></li>
               <li><a href="#">Events</a></li>
               <li><a href="#">Career</a></li>
             </ul>
@@ -235,7 +227,7 @@
           <div class="footer-column">
             <h5>Support</h5>
             <ul>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="./contact.html">Contact Us</a></li>
               <li><a href="#">Help Center / FAQ</a></li>
               <li><a href="#">Terms of Service</a></li>
               <li><a href="#">Privacy Policy</a></li>

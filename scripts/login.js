@@ -1,0 +1,9 @@
+/*
+Pedro Moreira
+  x22140034
+  x22140034@student.ncirl.ie
+
+  Date: 06/12/2025
+  Higher Diploma in Computing  
+  Web Design Client-Side Scripting
+*/
