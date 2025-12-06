@@ -93,7 +93,7 @@ section:not(#hero-section) {
   min-height: 450px;
   display: flex;
   align-items: center;
-  text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 2px black;
   justify-content: center;
 }
 
@@ -115,6 +115,7 @@ section:not(#hero-section) {
   flex-basis: 100%;
   position: relative;
   cursor: pointer;
+  background-color: var(--color-steel-blue);
   transition: background-color 0.3s ease;
 }
 
@@ -140,6 +141,7 @@ section:not(#hero-section) {
 .left-div {
   position: relative;
   cursor: pointer;
+  background-color: var(--color-dark-brown);
   transition: background-color 0.3s ease;
 }
 
@@ -158,6 +160,7 @@ section:not(#hero-section) {
 .right-div {
   position: relative;
   cursor: pointer;
+  background-color: var(--color-steel-blue);
   transition: background-color 0.3s ease;
 }
 .right-label {
@@ -193,12 +196,10 @@ section:not(#hero-section) {
   z-index: 10;
 }
 
-/* Original Dark Brown Background for Even Items */
 .news-div:nth-of-type(even) {
   background-color: var(--color-dark-brown);
 }
 
-/* Badge Styling */
 .news-type {
   position: absolute;
   top: 15px;
@@ -217,7 +218,6 @@ section:not(#hero-section) {
   gap: 8px;
 }
 
-/* Adjust badge color for the brown card */
 .news-div:nth-of-type(even) .news-type {
   background: rgba(255, 200, 200, 0.15);
   color: #ffcccc;
@@ -265,8 +265,15 @@ section:not(#hero-section) {
 }
 
 @media screen and (max-width: 800px) {
+  #hero-section {
+    min-height: 60vh;
+  }
   #hero-header {
     font-size: 2rem;
+  }
+
+  .hero-text {
+    margin-bottom: 120px;
   }
 
   #hero-div-btn {
@@ -280,7 +287,43 @@ section:not(#hero-section) {
   .news-div h3 {
     font-size: 1.1rem;
   }
-  /* canvas {
+
+  .top-div {
+    background-image: url("../assets/DaftPunk.png");
+    background-size: cover;
+  }
+  .left-div {
+    background-image: url("../assets/TravisBarker.png");
+    background-size: cover;
+  }
+  .right-div {
+    background-image: url("../assets/Slash.png");
+    background-size: cover;
+  }
+  .right-label {
+    text-align: right;
+    top: 20px;
+    right: 20px;
+  }
+
+  .course {
+    min-width: 250px;
+    min-height: 200px;
+  }
+
+  .course h3 {
+    font-size: 1.2rem;
+  }
+
+  .course:hover {
+    transform: scale(1.02);
+    filter: brightness(1.2);
+    z-index: 10;
+  }
+  .video-asset {
     display: none;
-  } */
+  }
+  canvas {
+    display: none;
+  }
 }
