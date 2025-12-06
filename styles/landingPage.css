@@ -289,15 +289,15 @@ section:not(#hero-section) {
   }
 
   .top-div {
-    background-image: url("../assets/DaftPunk.png");
+    background-image: url("../assets/landingpage_daftpunk.webp");
     background-size: cover;
   }
   .left-div {
-    background-image: url("../assets/TravisBarker.png");
+    background-image: url("../assets/landingpage_travis.webp");
     background-size: cover;
   }
   .right-div {
-    background-image: url("../assets/Slash.png");
+    background-image: url("../assets/landingpage_slash.webp");
     background-size: cover;
   }
   .right-label {
