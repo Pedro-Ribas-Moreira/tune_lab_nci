@@ -39,7 +39,6 @@ body {
   background-color: var(--color-dark-blue);
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
   box-sizing: border-box;
 }
 
@@ -63,6 +62,7 @@ body {
 header {
   display: flex;
   height: 80px;
+  text-transform: uppercase;
 }
 header a {
   text-decoration: inherit;

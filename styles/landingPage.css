@@ -84,6 +84,7 @@ section:not(#hero-section) {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  text-transform: uppercase;
 }
 .course {
   border-radius: var(--border-radius-px);
@@ -186,16 +187,18 @@ section:not(#hero-section) {
 }
  */
 /* --- NEWS SECTION --- */
+/* --- NEWS SECTION --- */
 .news-div {
   position: relative;
+  /* Original Blue Background */
   background-color: var(--color-steel-blue);
   padding: 30px;
   width: 100%;
   box-sizing: border-box;
-  min-height: 150px;
+  min-height: 180px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 20px;
   border-radius: var(--border-radius-px);
   cursor: pointer;
@@ -208,47 +211,73 @@ section:not(#hero-section) {
   z-index: 10;
 }
 
+/* Original Dark Brown Background for Even Items */
 .news-div:nth-of-type(even) {
   background-color: var(--color-dark-brown);
 }
 
+/* Badge Styling */
 .news-type {
   position: absolute;
   top: 15px;
   right: 15px;
-
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 5px 12px;
   border-radius: 20px;
-
   font-size: 0.75rem;
   text-transform: uppercase;
   color: #ddd;
   font-weight: bold;
   letter-spacing: 1px;
-
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-/* Specific text color for the highlight card badge */
+/* Adjust badge color for the brown card */
 .news-div:nth-of-type(even) .news-type {
   background: rgba(255, 200, 200, 0.15);
   color: #ffcccc;
   border-color: rgba(255, 200, 200, 0.3);
 }
 
+/* Typography */
 .news-div h3 {
   color: #fff;
-  margin: 0 0 10px 0;
   padding-right: 80px;
+  text-transform: uppercase;
+  font-family: var(--font-header, sans-serif);
+  letter-spacing: 1.4px;
+  font-size: 1.4rem;
+  line-height: 1.2;
 }
 
-.news-div p {
+/* Meta Data Color for Brown Card */
+.news-div:nth-of-type(even) .news-meta {
+  color: #ffcccc;
+}
+
+.news-desc {
   color: #ccc;
   margin: 0;
   line-height: 1.5;
-  text-transform: capitalize;
+  font-size: 0.95rem;
+  padding-right: 80px;
+  text-align: justify;
+}
+
+.read-more {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+  text-align: right;
+}
+
+.news-div:hover .read-more {
+  opacity: 1;
+  text-decoration: underline;
 }
