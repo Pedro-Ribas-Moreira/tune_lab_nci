@@ -249,8 +249,9 @@ section:not(#hero-section) {
   margin: 0;
   line-height: 1.5;
   font-size: 0.95rem;
-  padding-right: 80px;
+  /* padding-right: 20px; */
   text-align: justify;
+  margin-bottom: 16px;
 }
 
 .read-more {
@@ -324,7 +325,7 @@ section:not(#hero-section) {
   .course {
     flex: 0 0 85%;
     min-height: 200px;
-    height: 250px;
+    height: 350px;
     scroll-snap-align: center;
     margin: 0;
 
