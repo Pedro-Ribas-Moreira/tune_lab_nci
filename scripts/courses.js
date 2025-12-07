@@ -1,3 +1,12 @@
+/*
+Raoul Mulhall
+25148397
+
+Javascript for opening and closing the modals for the courses page
+
+*/
+
+
 // Open modal by clicking course card
 document.querySelectorAll(".course-card").forEach(card => {
     card.addEventListener("click", () => {
