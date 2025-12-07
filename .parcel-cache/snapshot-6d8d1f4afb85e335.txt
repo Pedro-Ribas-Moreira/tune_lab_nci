@@ -1,4 +1,4 @@
-4296
+4467
 84C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\semver\functions\prerelease.js134095911530781872 0
 63C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@mischnic134095911419240106 1
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\transformer-js\package.json134095911498206175 0
@@ -95,14 +95,15 @@
 58C:\Users\pedro\Documents\NCI\labtune_nci\package-lock.json134095914550628428 0
 82C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\esm\_extends.js134095911576512106 0
 57C:\Users\pedro\Documents\NCI\labtune_nci\styles\login.css134095325205256927 0
+157C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\logs\refs\remotes\origin\HEAD134095917104212883 0
 76C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\optimizer-html134095911481443232 1
-47C:\Users\pedro\Documents\NCI\labtune_nci\styles134095881116352778 1
+47C:\Users\pedro\Documents\NCI\labtune_nci\styles134095918138825976 1
 68C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\tslib\tslib.js134095911484846696 0
 97C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\notifications.js134095911648583049 0
 76C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\semver\functions\gt.js134095911508878451 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\IS.js134095911643228993 0
 71C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\commander\LICENSE134095911462002424 0
-65C:\Users\pedro\Documents\NCI\labtune_nci\styles\bootstrap.min.css134095881115763516 0
+65C:\Users\pedro\Documents\NCI\labtune_nci\styles\bootstrap.min.css134095918138825976 0
 118C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_class_static_private_field_spec_set\package.json134095911612772840 0
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\user-timing.js134095911660208340 0
 72C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\term-size\index.js134095911498186177 0
@@ -165,7 +166,7 @@
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_array_without_holes134095911592708570 1
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-addon-api\common.gypi134095911465746537 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\GL.js134095911637774914 0
-60C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache134063718860032825 1
+60C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache134095917038114012 1
 84C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\regenerator-runtime\runtime.js134095911460264579 0
 72C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.package-lock.json134095914553863118 0
 103C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\source-map\parcel_sourcemap_node\index.js134095911500781315 0
@@ -210,6 +211,7 @@
 79C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\src\v8-functions.cpp134095911561004131 0
 60C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\base-x134095911475537289 1
 81C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\optimizer-image\lib134095911469028138 1
+147C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\refs\heads\gh-pages134095917127761350 0
 59C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fastq134095914519308260 1
 70C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\src\dbi.cpp134095911559561780 0
 92C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\svg-html.js134095911657137268 0
@@ -313,6 +315,7 @@
 106C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_assert_this_initialized\package.json134095911593041365 0
 98C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\esm\_assert_this_initialized.js134095911564852065 0
 60C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\globby134095914512558550 1
+140C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\login.fcf19ec2.js134095917119038538 0
 70C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\merge2\README.md134095914507199895 0
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\trim-repeated\package.json134095914503968618 0
 65C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\graceful-fs134095914511912271 1
@@ -344,6 +347,7 @@
 101C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fast-glob\out\providers\transformers\entry.d.ts134095914529272772 0
 71C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\jsonfile\index.js134095914506570288 0
 81C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\prettier\plugins\meriyah.js134063717161988017 0
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\76134095917122154933 1
 90C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-addon-api\tools\clang-format.js134095911509302911 0
 81C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\src\_using.mjs134095911640886178 0
 94C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\es6-number.js134095911628748419 0
@@ -356,6 +360,7 @@
 74C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\profiler\src134095911507073137 1
 103C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\test\fixtures\custom-targets-distdir134095911588738121 1
 62C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\make-dir134095914509120058 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\1a134095917121636637 1
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\email-addresses\bower.json134095914515006340 0
 121C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages134095911668105072 0
 60C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\merge2134095914506892553 1
@@ -375,6 +380,7 @@
 68C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-addon-api134095911519148768 1
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\src\_interop_require_default.mjs134095911636886331 0
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\reporter-dev-server\LICENSE134095911462048364 0
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\30134095917121636637 1
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\audiotracks.js134095911536792459 0
 72C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\p-limit\index.d.ts134095914508782458 0
 86C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-gyp-build-optional-packages134095911486210120 1
@@ -414,6 +420,7 @@
 100C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\text-size-adjust.js134095911657918705 0
 65C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\path-exists134095914508604615 1
 63C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\path-type134095914508604615 1
+159C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\about-music-production.4f24015a.webp134095917118968155 0
 87C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\ime.js134095911641272552 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\MT.js134095911647265096 0
 113C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_load.c134095911538033590 0
@@ -497,6 +504,7 @@
 93C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\test\InternalAsset.test.js134095911559004997 0
 101C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\loading-lazy-attr.js134095911644951740 0
 76C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\universalify\README.md134095914507248557 0
+139C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\description134095917045458409 0
 83C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\weak-lru-cache\LRFUExpirer.js134095911473930800 0
 104C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\css-element-function.js134095911582290365 0
 74C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\type-fest\index.d.ts134095911510861653 0
@@ -523,6 +531,7 @@
 96C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_object_spread\package.json134095911619461982 0
 70C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fs-extra\LICENSE134095914504339467 0
 82C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\weak-lru-cache\tests\test.js134095911484199336 0
+137C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\logs\refs134095917104406444 1
 72C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\node-index.js134095911574629158 0
 97C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\test\fixtures\invalid-distpath134095911591585763 1
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\utility-types\CHANGELOG.md134095911504941876 0
@@ -574,6 +583,7 @@
 98C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\utility-types\dist\functional-helpers.js.map134095911497472272 0
 97C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\type-fest\source\union-to-intersection.d.ts134095911531928783 0
 105C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\package-manager\src\MockPackageInstaller.js134095911521287665 0
+148C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\about-drums.7ef286ef.webp134095917118968155 0
 87C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-addon-api\node_addon_api.gyp134095911439874191 0
 81C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\utility-types\dist\index.js134095911472786225 0
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lightningcss\node\flags.js134095911507652365 0
@@ -811,6 +821,7 @@
 77C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\trim-repeated\readme.md134095914509599025 0
 76C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lightningcss\README.md134095911511553107 0
 104C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\font-variant-numeric.js134095911633651013 0
+152C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\hooks\post-update.sample134095917045546339 0
 77C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\to-regex-range\index.js134095911439773047 0
 88C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\src\_create_class.mjs134095911633847142 0
 74C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fill-range\README.md134095911468112072 0
@@ -880,6 +891,7 @@
 109C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\esm\_class_apply_descriptor_destructure.js134095911569177703 0
 83C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fast-glob\out\utils\stream.js134095914527174862 0
 77C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\supports-color\index.js134095911455451134 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\18\ab8606a4cb95769a7722150de47cddc376e685134095917122198480 0
 76C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\supports-color\license134095911431693889 0
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\supports-color\readme.md134095911471771326 0
 97C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\lib\requests\PackageRequest.js134095911563444730 0
@@ -905,11 +917,13 @@
 67C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\slash\license134095914507697417 0
 87C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\svg.js134095911657257185 0
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\test\ParcelConfigRequest.test.js134095911570792083 0
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\e6134095917121113587 1
 72C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\slash\package.json134095914502228793 0
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-gyp-build-optional-packages\index.js134095911473175319 0
 69C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\slash\readme.md134095914509899678 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\IR.js134095911643192844 0
 70C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\semver\functions134095911536026808 1
+190C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\pack\pack-a1b9fc577a5920a2a0937fff72a7bbf20777132f.idx134095917099115212 0
 105C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\react-refresh\cjs\react-refresh-babel.production.js134095911473134967 0
 100C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_non_iterable_rest\package.json134095911618851087 0
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\proxy.js134095911653066233 0
@@ -974,6 +988,7 @@
 83C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\browsers.js134095911558550709 0
 91C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_sliced_to_array_loose134095911620668738 1
 91C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\electron-to-chromium\full-versions.js134095911483608571 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\00\c1275d50d08b9e324348eaae911117b5ec433f134095917122356772 0
 84C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\semver\internal\identifiers.js134095911513587109 0
 86C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\semver\internal\parse-options.js134095911527603973 0
 74C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\json5\dist\index.mjs134095911511088582 0
@@ -1002,6 +1017,7 @@
 100C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\getcomputedstyle.js134095911636461701 0
 77C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\optimizer-image134095911473503791 1
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\TW.js134095911659569342 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\08\08f000546ed27917aaacc87882665148997465134095917121872276 0
 73C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fill-range\index.js134095911439763037 0
 76C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\semver\functions\eq.js134095911506952456 0
 77C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\semver\classes\range.js134095911531404193 0
@@ -1041,6 +1057,7 @@
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\semver\functions\sort.js134095911534386172 0
 90C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\feature-flags\lib\types.d.ts134095911499187404 0
 104C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\intro.doc134095911563454729 0
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\fa134095917122113216 1
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\semver\classes\semver.js134095911533870959 0
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\.eslintrc.js134095911483535090 0
 74C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\filenamify\readme.md134095914512599014 0
@@ -1102,6 +1119,7 @@
 104C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\runtime-js\src\helpers\node\wasm-loader.js134095911532994810 0
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-gyp-build-optional-packages\package.json134095911483692911 0
 69C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\concat.js134095914527799663 0
+158C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\pricing-piano - price.77d19108.webp134095917119677256 0
 86C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\regenerator-runtime\package.json134095911468151784 0
 107C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest_enc2.c134095911550806215 0
 81C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\regenerator-runtime\path.js134095911439833992 0
@@ -1118,6 +1136,7 @@
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\commander\lib\command.js134095911483138285 0
 108C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\react-refresh\cjs\react-refresh-runtime.development.js134095911480850294 0
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\queue-microtask\index.js134095914503630780 0
+146C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\labtune_nci.55e6a97a.js134095917119009975 0
 70C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\prettier\LICENSE134063717159075826 0
 69C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\chalk\readme.md134095911479980214 0
 79C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\queue-microtask\README.md134095914507042906 0
@@ -1157,8 +1176,10 @@
 108C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\runtime-browser-hmr\src\loaders\hmr-runtime.js134095911481270970 0
 70C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\prettier\plugins134063717172300238 1
 87C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_apply_decs_2203_r134095911591814055 1
+141C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\about.674e905c.css134095917118968155 0
 74C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\core\index.d.ts134095911488873511 0
 74C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\core\spack.d.ts134095911504544023 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\60\28311ebd50b1651d450213f3dab18721210158134095917122648541 0
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\prettier\standalone.d.ts134063717170371262 0
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\ordered-binary\README.md134095911506420285 0
 82C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\postcss-value-parser\LICENSE134095911431731412 0
@@ -1189,6 +1210,7 @@
 73C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\msgpackr\pack.d.cts134095911510033891 0
 81C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\prettier\plugins\estree.mjs134063717164438534 0
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\test\fixtures\main-mjs134095911597457732 1
+147C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\pricing.932146c7.css.map134095917119050977 0
 100C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\css-motion-paths.js134095911597346491 0
 77C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\email-addresses\LICENSE134095914504327064 0
 103C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\source-map\parcel_sourcemap_node\build.js134095911498347958 0
@@ -1201,6 +1223,8 @@
 82C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\prettier\plugins\glimmer.mjs134063717165569702 0
 81C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\prettier\plugins\graphql.js134063717161471721 0
 76C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\dependencies\lmdb134095911477067704 1
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\e6\9fbecdfd121ed5f9e78dd5e865a42e44aed658134095917120780173 0
+149C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\about-guitar.3550c560.webp134095917118968155 0
 102C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\node_modules\node-addon-api\tools\README.md134095911522215699 0
 97C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\selection-api.js134095911655356580 0
 107C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\font-variant-alternates.js134095911633543290 0
@@ -1245,6 +1269,7 @@
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\prettier\plugins\yaml.js134063717162634547 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\LV.js134095911645225865 0
 92C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\prettier\internal\experimental-cli.mjs134063717165099826 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\72\58c857c4e26ecda047f859daeecbf49ded7391134095917122858721 0
 87C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\postcss-value-parser\package.json134095911483875796 0
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@nodelib\fs.scandir\out\providers\sync.js134095914518006153 0
 84C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\postcss-value-parser\README.md134095911487382984 0
@@ -1316,16 +1341,19 @@
 94C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\selectlist.js134095911655386591 0
 64C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\dotenv\lib134095911505790220 1
 68C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\p-try\index.js134095914505268937 0
+150C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\pricing-drums.9039ea60.webp134095917119050977 0
 82C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\ordered-binary\tests\test.js134095911489720796 0
 67C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\p-try\license134095914507042906 0
 102C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\cjs\_class_apply_descriptor_get.cjs134095911513808888 0
 108C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\node_modules\node-addon-api\tools\clang-format.js134095911510531618 0
 96C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@nodelib\fs.walk\out\providers\stream.d.ts134095914525538733 0
+147C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\courses.f5d82486.css.map134095917119009975 0
 75C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\ordered-binary\assets134095911507890837 1
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\CZ.js134095911619306738 0
 71C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\p-locate\index.js134095914505465028 0
 117C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\package.json134095911592594836 0
 88C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\lib\PackagerRunner.js134095911564904361 0
+144C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\login.fcf19ec2.js.map134095917119048542 0
 104C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\gh-pages\node_modules\commander\typings\index.d.ts134095914524943426 0
 75C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\p-locate\package.json134095914502200918 0
 88C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-addon-api\tools\check-napi.js134095911507934479 0
@@ -1358,6 +1386,7 @@
 77C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\ordered-binary\index.js134095911482624442 0
 66C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core134095911607286365 1
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\ordered-binary\rollup.config.js134095911485186590 0
+161C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\logs\refs\remotes\origin\gh-pages134095917166172874 0
 84C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\gh-pages\bin\gh-pages-clean.js134095914506879147 0
 98C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\gh-pages\node_modules\commander\lib\error.js134095914514209743 0
 92C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\ordered-binary\.nyc_output\processinfo134095911502216241 1
@@ -1390,6 +1419,7 @@
 72C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-releases\data134095911478371909 1
 83C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fs-extra\lib\json\jsonfile.js134095914524540395 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\PK.js134095911651778687 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\fe\d7079264760fcf54186adbcca2f38a434b18d2134095917123916806 0
 75C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-releases\LICENSE134095911448412949 0
 98C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\node_modules\node-addon-api\except.gypi134095911480860346 0
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-releases\package.json134095911473134967 0
@@ -1417,6 +1447,7 @@
 124C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\package.json134095911489514829 0
 121C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\README.md134095911497522499 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_async_generator134095911596347919 1
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\30\6f974761b1a6b9809923ca8535cf2f4bb10337134095917121618791 0
 130C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\detect-libc.js134095911473184522 0
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fs-extra\lib\json\index.js134095914520255300 0
 86C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\workers\test\integration134095911501688742 1
@@ -1429,6 +1460,7 @@
 129C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\filesystem.js134095911483692911 0
 88C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\feature-flags\lib\index.js134095911476953948 0
 88C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\lib\ReporterRunner.js134095911574903665 0
+159C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\courses-guitar-student.b59abe3a.webp134095917119247227 0
 77C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-addon-api\index.js134095911513854625 0
 117C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_class_apply_descriptor_destructure\package.json134095911598163035 0
 62C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\bin134095911573728689 1
@@ -1461,6 +1493,7 @@
 91C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-addon-api\tools\eslint-format.js134095911511767289 0
 72C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\find-up\index.d.ts134095914503656098 0
 100C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\css-nth-child-of.js134095911598253634 0
+151C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\courses-guitar.d15f90a7.webp134095917118998061 0
 84C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\node-addon-api\tools\README.md134095911520447694 0
 92C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\lib\public\BundleGroup.js134095911541954934 0
 97C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\package-manager\test\fixtures\empty134095911528674743 1
@@ -1483,6 +1516,7 @@
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\locate-path\package.json134095914502211674 0
 94C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_interop_require_wildcard134095911617570855 1
 86C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\msgpackr-extract\src\extract.cpp134095911461940024 0
+143C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\pricing.932146c7.css134095917119050977 0
 75C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\profiler\test134095911503863810 1
 81C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fast-glob\out\utils\fs.d.ts134095914529539613 0
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\msgpackr-extract\node_modules\detect-libc134095911498683488 1
@@ -1509,6 +1543,7 @@
 106C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\msgpackr-extract\node_modules\detect-libc\index.d.ts134095911499104653 0
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\msgpackr-extract\node_modules\detect-libc\lib134095911485773652 1
 76C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\msgpackr\dist\node.cjs134095911503025865 0
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\a9134095917124022634 1
 108C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\msgpackr-extract\node_modules\detect-libc\package.json134095911489362785 0
 69C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\sortBy.js134095914541159505 0
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_array_with_holes\package.json134095911592519507 0
@@ -1663,7 +1698,9 @@
 96C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\console-time.js134095911571422311 0
 92C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\test\PublicBundle.test.js134095911573658630 0
 98C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\gh-pages\node_modules\commander\package.json134095914520536064 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\b4\688a9d7b7b237a53a288cc657909e905692095134095917122816011 0
 70C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\profiler134095911508996600 1
+122C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git134095917118958147 1
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\rest-parameters.js134095911654512228 0
 71C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\src\misc.cpp134095911560305965 0
 105C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\background-attachment.js134095911543936343 0
@@ -1674,6 +1711,7 @@
 81C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\src\ordered-binary.cpp134095911560477141 0
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\workers\index.d.ts134095911542040004 0
 72C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\src\windows.c134095911556281804 0
+157C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\hooks\push-to-checkout.sample134095917045621454 0
 90C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\srcset.js134095911656578506 0
 98C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\node_modules\node-addon-api\common.gypi134095911474401791 0
 91C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\cjs\_sliced_to_array.cjs134095911552906209 0
@@ -1683,6 +1721,7 @@
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\optimizer-html\src134095911474769099 1
 88C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\markdown-ansi\package.json134095911483325965 0
 111C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\cjs\_class_static_private_field_spec_set.cjs134095911531115273 0
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\50134095917124149228 1
 91C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lmdb\dependencies\lz4\lib\dll\example134095911580097321 1
 74C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\graceful-fs\clone.js134095914503764261 0
 100C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_apply_decs_2203_r\package.json134095911591814055 0
@@ -1892,6 +1931,7 @@
 102C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lightningcss\node_modules\detect-libc\lib\elf.js134095911478338190 0
 94C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\es6-module.js134095911628441261 0
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fs-extra\lib\util\async.js134095914507117443 0
+152C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\logs\refs\remotes\origin134095917166132102 1
 106C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lightningcss\node_modules\detect-libc\lib\process.js134095911487001389 0
 94C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@nodelib\fs.scandir\out\types\index.d.ts134095914523849303 0
 83C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\lightningcss\node\ast.js.flow134095911497255613 0
@@ -1929,12 +1969,14 @@
 74C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\is-glob\package.json134095911455461125 0
 121C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\index.js134095911504921877 0
 70C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\lib134095911585273789 1
+150C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\labtune_nci.55e6a97a.js.map134095917119019967 0
 75C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\json5\lib\register.js134095911485701137 0
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\json5\lib\stringify.d.ts134095911515214195 0
 105C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\constraint-validation.js134095911572179483 0
 75C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_using134095911627351828 1
 96C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\transformer-react-refresh-wrap\lib134095911484457852 1
 74C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\json5\lib\unicode.js134095911499036362 0
+161C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\pricing-music-production.b6731cbb.webp134095917119820802 0
 77C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\json5\dist\index.min.js134095911473669053 0
 73C:\Users\pedro\Documents\NCI\labtune_nci\dist\courses-piano.73a98de2.webp134095917021676828 0
 97C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\dispatchevent.js134095911620668738 0
@@ -2010,6 +2052,7 @@
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fs-extra\lib\output-file134095914522162547 1
 121C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\mdn-css-unicode-bidi-isolate-override.js134095911645919573 0
 79C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fs-extra\lib\util\stat.js134095914527063780 0
+132C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\HEAD134095917117327759 0
 109C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\document-scrollingelement.js134095911621798428 0
 100C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\error-overlay\src\utils\stack-frame.js134095911522263054 0
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\esm\_wrap_async_generator.js134095911587614771 0
@@ -2064,6 +2107,7 @@
 77C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\filenamify\package.json134095914511730230 0
 86C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@nodelib\fs.stat\out\settings.js134095914512771510 0
 86C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\filename-reserved-regex\index.js134095914505567200 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\8f\3c85825c041ecdcce4d8f103ba3bb4fb697400134095917121780143 0
 97C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\readonly-attr.js134095911653688639 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\JM.js134095911643334847 0
 90C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\filename-reserved-regex\package.json134095914503788800 0
@@ -2092,6 +2136,7 @@
 76C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fast-glob\package.json134095914528019880 0
 68C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\internal134095914542564209 1
 73C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fast-glob\README.md134095914528217387 0
+158C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\courses-piano-student.3cad5ce2.webp134095917119001824 0
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fast-glob\out\index.d.ts134095914529626460 0
 76C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\fast-glob\out\managers134095914531842499 1
 92C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\testfeat.js134095911657756892 0
@@ -2183,6 +2228,7 @@
 73C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\email-addresses\lib134095914518838385 1
 82C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\email-addresses\package.json134095914515614326 0
 79C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\email-addresses\README.md134095914518450377 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\3b\ac298fb5f80db49ed8dac4c0f014173fd9d22b134095917122767050 0
 74C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\email-addresses\test134095914519496748 1
 93C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\email-addresses\test\email-addresses.js134095914511318200 0
 84C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\node-resolver-core\lib134095911484793663 1
@@ -2228,6 +2274,7 @@
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\dotenv-expand\package.json134095911477304089 0
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\src\_array_without_holes.mjs134095911629379492 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\source-map\package.json134095911520008367 0
+143C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\contact.d111fa18.css134095917118982551 0
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\mpeg4.js134095911647115033 0
 76C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\dotenv-expand\tea.yaml134095911500104174 0
 90C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_class_name_tdz_error134095911608221824 1
@@ -2352,6 +2399,7 @@
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\alt-af.js134095911515269022 0
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\alt-as.js134095911519646844 0
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\alt-eu.js134095911520991835 0
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\62134095917122323551 1
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\alt-na.js134095911521924824 0
 93C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\vibration.js134095911660505539 0
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\alt-sa.js134095911523259842 0
@@ -2374,6 +2422,7 @@
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\BJ.js134095911552906209 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\BR.js134095911557030006 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\BY.js134095911560115793 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\1a\83ab40eedda9cc991c1bb6d0c4ce6d62ff77b1134095917121636637 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\CA.js134095911560546869 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\CG.js134095911563949067 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\CH.js134095911565204290 0
@@ -2415,6 +2464,7 @@
 76C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\diagnostic\lib134095911497438345 1
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\HN.js134095911639900305 0
 94C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\src\public\PluginOptions.js134095911571491093 0
+147C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\labtune_nci.4842da47.css134095917119830778 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\HT.js134095911639989766 0
 88C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\src\InternalConfig.js134095911559365924 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\ID.js134095911640495579 0
@@ -2476,6 +2526,7 @@
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\NI.js134095911648446347 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\NL.js134095911648488112 0
 96C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\test\input\config\config.cjs134095911478165689 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\07\83e40a9715d732db2d0485d4884814f86e4fa4134095917123591426 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\NO.js134095911648533660 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\NP.js134095911648615269 0
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\src\_non_iterable_spread.mjs134095911638688666 0
@@ -2572,6 +2623,7 @@
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\regions\YE.js134095911666679496 0
 84C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\esm\_construct.js134095911574460037 0
 87C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\packager-raw\package.json134095911482982024 0
+152C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\logs\refs\heads\gh-pages134095917127776260 0
 100C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\speech-synthesis.js134095911656428748 0
 79C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\src\blob.js134095911497928377 0
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\esm\_ts_dispose_resources.js134095911586084427 0
@@ -2668,6 +2720,7 @@
 100C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\css-supports-api.js134095911614388817 0
 98C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\css-exclusions.js134095911582971274 0
 108C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\css-file-selector-button.js134095911584155671 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\52\1fa1a7f44340077ac43baadaefd9e51b84c184134095917121208281 0
 103C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\css-filter-function.js134095911584501708 0
 101C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\css-focus-visible.js134095911585287732 0
 94C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\nav-timing.js134095911648231340 0
@@ -2716,6 +2769,7 @@
 83C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\src\Deferred.js134095911515572694 0
 77C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_type_of134095911623261213 1
 97C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\text-overflow.js134095911657891979 0
+146C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\courses.4ed0d308.js.map134095917119009975 0
 88C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\spdy.js134095911656366334 0
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\css-reflections.js134095911609041375 0
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\css-regions.js134095911609123636 0
@@ -2751,6 +2805,7 @@
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\css-transitions.js134095911615629880 0
 88C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@nodelib\fs.walk\out\settings.d.ts134095914525174782 0
 100C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\css-unicode-bidi.js134095911615910605 0
+145C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\logs\refs\remotes134095917104174042 1
 72C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\package.json134095914542806194 0
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\css-unset-value.js134095911616172221 0
 94C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\decorators.js134095911620193839 0
@@ -2819,6 +2874,7 @@
 103C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\http-live-streaming.js134095911640146797 0
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\src\requests\EntryRequest.js134095911552546096 0
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\http3.js134095911640245714 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\b4\282d4317958433206cbba8c816ff7b5de6a17f134095917122452384 0
 114C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\img-naturalwidth-naturalheight.js134095911641398039 0
 108C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0134095911533401315 1
 91C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\imports.js134095911641459939 0
@@ -2828,6 +2884,7 @@
 94C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\indexeddb2.js134095911641713243 0
 108C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\input-autocomplete-onoff.js134095911641912359 0
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\input-color.js134095911641970085 0
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\8f134095917121852230 1
 103C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\input-email-tel-url.js134095911642109647 0
 91C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\test\DefaultMap.test.js134095911514512870 0
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\caniuse-lite\data\features\input-event.js134095911642159581 0
@@ -3020,6 +3077,7 @@
 64C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\braces\lib134095911486889677 1
 72C:\Users\pedro\Documents\NCI\labtune_nci\dist\about-guitar.3550c560.webp134095917013792052 0
 68C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\braces\LICENSE134095911431559427 0
+147C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\contact.d111fa18.css.map134095917118982551 0
 73C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\braces\package.json134095911489740790 0
 102C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_array_without_holes\package.json134095911592727291 0
 70C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\braces\README.md134095911498603289 0
@@ -3056,6 +3114,7 @@
 72C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\allSeries.js134095914510423301 0
 72C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\anySeries.js134095914513871925 0
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\lib\index.js134095911541899999 0
+147C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\refs\remotes\origin134095917166211658 1
 68C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\apply.js134095914514572256 0
 72C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\applyEach.js134095914515187722 0
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\applyEachSeries.js134095914518227969 0
@@ -3110,9 +3169,11 @@
 82C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\transformer-html\lib134095911467708973 1
 96C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\test\fixtures\invalid-engines134095911591919515 1
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\forEachOfSeries.js134095914533926266 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\03\da8f7094082bc335b7de3eadc1773bbb84d7be134095917122235267 0
 76C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\forEachSeries.js134095914534072838 0
 101C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\cjs\_class_private_method_init.cjs134095911527593969 0
 70C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\groupBy.js134095914534413446 0
+147C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\labtune_nci.9a4a8a1d.css134095917119019967 0
 69C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\inject.js134095914535173719 0
 67C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\LICENSE134095914504339467 0
 66C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\log.js134095914535405859 0
@@ -3146,6 +3207,7 @@
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\internal\onlyOnce.js134095914536590750 0
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\internal\parallel.js134095914536682819 0
 87C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\workers\lib\childState.js134095911497661833 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\1b\3f2b73ec3c37f834b14884b92b295861e0f586134095917124051215 0
 87C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\internal\promiseCallback.js134095914538451077 0
 100C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\cjs\_interop_require_wildcard.cjs134095911543624590 0
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\async\internal\reject.js134095914539731496 0
@@ -3213,6 +3275,7 @@
 100C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\transformer-postcss\lib\loadPlugins.js134095911489348725 0
 82C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_create_class134095911614162969 1
 92C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\test\fixtures\module-a.js134095911561018639 0
+140C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\pack134095917104551564 1
 91C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\transformer-json\package.json134095911478856958 0
 98C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\workers\src\threads\ThreadsWorker.js134095911532965302 0
 105C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_create_for_of_iterator_helper_loose134095911614398854 1
@@ -3256,6 +3319,7 @@
 105C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\runtime-js\src\helpers\browser\js-loader.js134095911522080326 0
 76C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_update134095911626554798 1
 79C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_using_ctx134095911626836928 1
+151C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\hooks\pre-commit.sample134095917045566060 0
 90C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_wrap_async_generator134095911627528756 1
 87C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_wrap_native_super134095911627747672 1
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_write_only_error\package.json134095911627911804 0
@@ -3287,6 +3351,7 @@
 102C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_non_iterable_spread\package.json134095911619079911 0
 98C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_new_arrow_check\package.json134095911618693455 0
 86C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_jsx\package.json134095911618518073 0
+155C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\hooks\applypatch-msg.sample134095917045469699 0
 104C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node134095911558773174 1
 106C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_iterable_to_array_limit\package.json134095911618247537 0
 109C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\_\_initializer_warning_helper\package.json134095911616998164 0
@@ -3493,6 +3558,7 @@
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\src\projectPath.js134095911572449638 0
 83C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\cjs\_dispose.cjs134095911535678609 0
 92C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\cjs\_get_prototype_of.cjs134095911538090409 0
+135C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\pricing.html134095917119061802 0
 84C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\cjs\_identity.cjs134095911538423833 0
 86C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\cjs\_instanceof.cjs134095911542890865 0
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@swc\helpers\cjs\_interop_require_default.cjs134095911543248420 0
@@ -3650,6 +3716,7 @@
 90C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\watcher\src\watchman\BSER.cc134095911483851511 0
 84C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\src\TapStream.js134095911554125578 0
 90C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\watcher\src\watchman\BSER.hh134095911524131068 0
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\16134095917127582402 1
 93C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\watcher\src\wasm\WasmBackend.cc134095911511824917 0
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\cache\package.json134095911509178617 0
 93C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\watcher\src\wasm\WasmBackend.hh134095911531615052 0
@@ -3660,6 +3727,7 @@
 98C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\watcher\src\macos\FSEventsBackend.hh134095911526441301 0
 97C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\watcher\src\linux\InotifyBackend.cc134095911507083160 0
 97C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\watcher\src\linux\InotifyBackend.hh134095911527866449 0
+167C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\pricing-music-production-price.f31bb274.webp134095917119050977 0
 97C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\watcher\src\kqueue\KqueueBackend.hh134095911528946344 0
 98C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\watcher\scripts\build-from-source.js134095911533795878 0
 82C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\resolver-default\src134095911474650325 1
@@ -3670,6 +3738,7 @@
 78C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\test\input134095911542657796 1
 90C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\test\sourcemap.test.js134095911553475760 0
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\test\throttle.test.js134095911556095086 0
+152C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\hooks\pre-receive.sample134095917045598693 0
 98C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\test\input\sourcemap\inline.js134095911542863046 0
 93C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\test\input\config\.testrc134095911468376054 0
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\test\input\config\config.js134095911508421985 0
@@ -3683,6 +3752,7 @@
 95C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\src\generateBuildMetrics.js134095911520481241 0
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\src\getModuleParts.js134095911523759738 0
 94C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@nodelib\fs.walk\out\readers\reader.d.ts134095914524817535 0
+133C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\login.html134095917119048542 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\src\getRootDir.js134095911524402762 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\src\objectHash.js134095911544248268 0
 88C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\utils\src\openInBrowser.js134095911544898507 0
@@ -3724,6 +3794,7 @@
 127C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\transformer-react-refresh-wrap\lib\ReactRefreshWrapTransformer.js134095911485208107 0
 115C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\transformer-react-refresh-wrap\lib\helpers\helpers.js134095911469983431 0
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\transformer-raw\lib\RawTransformer.js134095911468984367 0
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\03134095917122619964 1
 90C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\transformer-posthtml\LICENSE134095911459277440 0
 84C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@nodelib\fs.stat\out\providers134095914519915731 1
 86C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\transformer-posthtml\src134095911483743291 1
@@ -3759,6 +3830,7 @@
 83C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\cache\lib\IDBCache.js134095911488597186 0
 96C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\transformer-image\lib\loadSharp.js134095911481219876 0
 101C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\transformer-image\lib\validateConfig.js134095911488955312 0
+133C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.gitignore134095917104611916 0
 82C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\transformer-html\src134095911473513806 1
 101C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\transformer-html\src\HTMLTransformer.js134095911474789101 0
 79C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\optimizer-swc\lib134095911471032042 1
@@ -3853,6 +3925,7 @@
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\reporter-tracer\LICENSE134095911463703676 0
 90C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\diagnostic\lib\diagnostic.js134095911471092980 0
 81C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\reporter-tracer\src134095911478351910 1
+69C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages134095917045398324 1
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\reporter-tracer\lib\TracerReporter.js134095911472963839 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\reporter-dev-server\src134095911524025202 1
 91C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@nodelib\fs.stat\out\adapters\fs.d.ts134095914517904720 0
@@ -3907,6 +3980,7 @@
 77C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\packager-js\src134095911521075469 1
 96C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\packager-js\src\CJSOutputFormat.js134095911476364077 0
 92C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\packager-js\src\dev-prelude.js134095911486879670 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\db\958b10d6f60f79bbf10e539998701576dd5f88134095917123668964 0
 96C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\packager-js\src\ESMOutputFormat.js134095911502475732 0
 96C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\packager-js\lib\CJSOutputFormat.js134095911470227366 0
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\packager-js\lib\GlobalOutputFormat.js134095911504820941 0
@@ -4107,6 +4181,7 @@
 84C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\lib\Dependency.js134095911546764860 0
 93C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\lib\dumpGraphToGraphViz.js134095911551843676 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\lib\Environment.js134095911553293809 0
+155C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\landingpage_travis.d61ec940.webp134095917119038538 0
 79C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\lib\index.js134095911556085097 0
 90C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\lib\loadParcelPlugin.js134095911560130901 0
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\core\lib\Parcel.js134095911566311112 0
@@ -4134,6 +4209,7 @@
 90C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\config-default\test\.babelrc134095911463715243 0
 84C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\compressor-raw\LICENSE134095911462020963 0
 89C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\compressor-raw\package.json134095911483002027 0
+152C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\refs\remotes\origin\HEAD134095917104223853 0
 97C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\compressor-raw\src\RawCompressor.js134095911476769990 0
 75C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\codeframe\src134095911528697519 1
 94C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\codeframe\test\codeframe.test.js134095911531100726 0
@@ -4149,6 +4225,7 @@
 82C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\cache\lib\types.d.ts134095911511305361 0
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\bundler-default\LICENSE134095911461592662 0
 90C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\bundler-default\package.json134095911489446220 0
+132C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\refs134095917104044390 1
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@parcel\bundler-default\lib\DefaultBundler.js134095911475472347 0
 70C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@nodelib\fs.walk134095914519915731 1
 85C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@nodelib\fs.walk\out\index.d.ts134095914523600810 0
@@ -4181,6 +4258,7 @@
 98C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@nodelib\fs.scandir\out\providers\async.d.ts134095914519383463 0
 96C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@nodelib\fs.scandir\out\providers\async.js134095914504251769 0
 99C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@nodelib\fs.scandir\out\providers\common.d.ts134095914520141588 0
+157C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\hooks\pre-merge-commit.sample134095917045577001 0
 115C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@msgpackr-extract\msgpackr-extract-win32-x64\node.abi115.node134095911477410260 0
 113C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@msgpackr-extract\msgpackr-extract-win32-x64\node.napi.node134095911489288764 0
 111C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@msgpackr-extract\msgpackr-extract-win32-x64\package.json134095911437719009 0
@@ -4193,6 +4271,7 @@
 67C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@lezer\common134095911505549172 1
 71C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@lezer\lr\LICENSE134095911455592695 0
 73C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@lezer\lr\README.md134095911505572599 0
+133C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\about.html134095917118982551 0
 80C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@lezer\lr\dist\index.d.cts134095911488284534 0
 79C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@lezer\lr\dist\index.d.ts134095911509240724 0
 72C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@lezer\common\dist134095911507073137 1
@@ -4201,8 +4280,100 @@
 83C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@lezer\common\dist\index.d.ts134095911508896387 0
 81C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\@lezer\common\dist\index.js134095911502097760 0
 69C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\prettier134063718860032825 1
-83C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.bin\baseline-browser-mapping134095911668058029 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\76\82325d84e82878271e593fea6433d0d4d71dcf134095917122143366 0
+127C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git134095917127791814 1
+148C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\about-piano.b771c31a.webp134095917118968155 0
+145C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\about.674e905c.css.map134095917118968155 0
+140C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\about.6ced1d3e.js134095917118968155 0
+144C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\about.6ced1d3e.js.map134095917118982551 0
+147C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\contact-us.135a2336.webp134095917119855284 0
+135C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\contact.html134095917118982551 0
+150C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\courses-drums.4cf79952.webp134095917119247227 0
+169C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\courses-music-production-student.d66207d5.webp134095917119257225 0
+150C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\courses-piano.73a98de2.webp134095917119001824 0
+142C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\courses.4ed0d308.js134095917119001824 0
 87C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.bin\baseline-browser-mapping.cmd134095911668070244 0
+143C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\courses.f5d82486.css134095917119009975 0
+135C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\courses.html134095917119009975 0
+161C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\courses_music-production.cede9189.webp134095917119009975 0
+133C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\index.html134095917119009975 0
+151C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\labtune_nci.4842da47.css.map134095917119855284 0
+151C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\labtune_nci.9a4a8a1d.css.map134095917119021703 0
+147C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\labtune_nci.d3b0b66b.css134095917119021703 0
+151C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\labtune_nci.d3b0b66b.css.map134095917119021703 0
+159C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\landingpage-video-drums.55ee94a7.mp4134095917119945622 0
+160C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\landingpage-video-guitar.a866c4bf.mp4134095917120027201 0
+160C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\landingpage-video-mixing.c826fbb0.mp4134095917120052779 0
+167C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\landingpage-video-poster-drums.991ac1a8.webp134095917119038538 0
+168C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\landingpage-video-poster-guitar.ba8a64fa.webp134095917119038538 0
+168C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\landingpage-video-poster-mixing.6b0eda61.webp134095917119038538 0
+157C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\landingpage_daftpunk.ab2e3c44.webp134095917119038538 0
+154C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\landingpage_slash.f8cf2030.webp134095917119038538 0
+156C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\pricing-drums-price.830bd805.webp134095917119050977 0
+157C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\pricing-guitar-price.238f9146.webp134095917119050977 0
+151C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\pricing-guitar.e9295d04.webp134095917119667248 0
+150C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\pricing-piano.6450de22.webp134095917119687250 0
+142C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\pricing.c128fa26.js134095917119182168 0
+146C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\pricing.c128fa26.js.map134095917119060968 0
+142C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\COMMIT_EDITMSG134095917127646342 0
+134C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\config134095917125546013 0
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\FETCH_HEAD134095917112803920 0
+133C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\hooks134095917045621454 1
+133C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\index134095917127594508 0
+132C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\info134095917045633076 1
+132C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\logs134095917104387891 1
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\39\b455d10f6d6effa61df262877c121519402811134095917122714023 0
+135C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects134095917128091212 1
+139C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\packed-refs134095917103961143 0
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\refs\heads134095917127791343 1
+140C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\refs\remotes134095917104055274 1
+137C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\refs\tags134095917045656703 1
+156C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\refs\remotes\origin\gh-pages134095917166116206 0
+143C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\refs\heads\main134095917104376704 0
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\00134095917122383303 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\07134095917123631270 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\08134095917121905127 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\0d134095917123749537 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\18134095917122220448 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\1b134095917124082956 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\39134095917122744890 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\3b134095917122797057 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\52134095917121573719 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\59134095917127712103 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\60134095917122694038 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\72134095917122888723 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\88134095917122942943 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\93134095917123887187 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\b4134095917122836013 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\db134095917123694863 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\f4134095917121956111 1
+138C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\fe134095917123955523 1
+140C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\info134095917045888159 1
+191C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\pack\pack-a1b9fc577a5920a2a0937fff72a7bbf20777132f.pack134095917120651977 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\fa\7882266c2eb54296fe4fd2fd1ce76fda1c6062134095917122036415 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\f4\829d73ccbea0ec28e43336fe08c9d523847981134095917121936133 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\a9\6c053ceb52fa066f66af1a6a4a1f8337bc287f134095917123982125 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\93\5ae2889c70ccd6409d6b34c0f0b29882bf1d99134095917123849419 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\88\bdb35f43730d53f69ff54c37d6abe9cfa9a98d134095917122909256 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\62\0f47dc15ef9bb4a241207e00ee309cea0aa8ef134095917122298082 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\59\9a5e7b325b9ca7d0a3c0fddb1cb3b7694d58cf134095917127677594 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\50\7bdc6c3b38d31d3ab81ee7046be2f2006786ae134095917124123604 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\16\91ac4c198e5296158aa8fe3ede61b5a7cf9b78134095917127539740 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\0d\4ca3ec15387fd0d234e69137c80e77410e006e134095917123729544 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\03\19162eb22d0e51bf26c2297034fff9742f48bf134095917121113587 0
+177C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\objects\03\1f42afe52d4dac5d5fd7350ed1eae19c24f2db134095917122559988 0
+137C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\logs\HEAD134095917127764569 0
+143C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\logs\refs\heads134095917127764569 1
+148C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\logs\refs\heads\main134095917104417962 0
+140C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\info\exclude134095917045643061 0
+151C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\hooks\commit-msg.sample134095917045488286 0
+159C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\hooks\fsmonitor-watchman.sample134095917045536216 0
+155C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\hooks\pre-applypatch.sample134095917045554143 0
+149C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\hooks\pre-push.sample134095917045577001 0
+151C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\hooks\pre-rebase.sample134095917045588656 0
+159C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\hooks\prepare-commit-msg.sample134095917045605419 0
+147C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.cache\gh-pages\https!github.com!Pedro-Ribas-Moreira!labtune_nci.git\.git\hooks\update.sample134095917045621454 0
+83C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.bin\baseline-browser-mapping134095911668058029 0
 87C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.bin\baseline-browser-mapping.ps1134095911668044507 0
 71C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.bin\browserslist134095911668033590 0
 75C:\Users\pedro\Documents\NCI\labtune_nci\node_modules\.bin\browserslist.cmd134095911668033590 0
