@@ -1,4 +1,17 @@
-/* Philip Weir - pricing.html creator - 2 December 2025 */
+/* 
+  
+  Philip Weir
+  x25132521
+  x25132521@student.ncirl.ie
+
+  Date: 07/12/2025
+  Higher Diploma in Computing  
+  Web Design Client-Side Scripting
+   
+  ABOUT PAGE JS
+  This script is responsible for controlling the display of faculty biography text and managing the associated button text states
+
+ */
 
 document.querySelectorAll(".toggle-bio").forEach((btn) => {
   btn.addEventListener("click", () => {
