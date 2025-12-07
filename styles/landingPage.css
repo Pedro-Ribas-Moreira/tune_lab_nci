@@ -227,8 +227,6 @@ section:not(#hero-section) {
   color: #ffcccc;
   border-color: rgba(255, 200, 200, 0.3);
 }
-
-/* Typography */
 .news-div h3 {
   color: #fff;
   padding-right: 80px;
@@ -239,7 +237,6 @@ section:not(#hero-section) {
   line-height: 1.2;
 }
 
-/* Meta Data Color for Brown Card */
 .news-div:nth-of-type(even) .news-meta {
   color: #ffcccc;
 }
