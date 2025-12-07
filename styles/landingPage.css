@@ -84,6 +84,9 @@ section:not(#hero-section) {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  /* text-transform: uppercase; */
+}
+.course h3 {
   text-transform: uppercase;
 }
 .course {
@@ -200,6 +203,7 @@ section:not(#hero-section) {
   background-color: var(--color-dark-brown);
 }
 
+/* create that pill effect */
 .news-type {
   position: absolute;
   top: 15px;
@@ -265,6 +269,7 @@ section:not(#hero-section) {
 }
 
 @media screen and (max-width: 800px) {
+  /* HERO SECTION  */
   #hero-section {
     min-height: 60vh;
   }
@@ -273,53 +278,109 @@ section:not(#hero-section) {
   }
 
   .hero-text {
-    margin-bottom: 120px;
+    margin-bottom: 0px;
   }
 
   #hero-div-btn {
     height: 60px;
     width: 200px;
   }
+
+  /* NEWS */
+
   .section-title > h2 {
     font-size: 1.2rem; /* 32px */
   }
-
   .news-div h3 {
     font-size: 1.1rem;
   }
 
-  .top-div {
-    background-image: url("../assets/landingpage_daftpunk.webp");
-    background-size: cover;
+  /* COURSES */
+
+  /* IF IN MOBILE WE WANT TO DISPLAY THE CARDS IN A SCROLLABLE ROW  */
+
+  .courses {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 16px;
+    justify-content: flex-start;
+    padding: 10px 20px 30px;
+
+    /* Snap Logic: Makes cards lock into place */
+    /* https://www.w3schools.com/cssref/css_pr_scroll-snap-type.php */
+    scroll-snap-type: x mandatory;
+
+    /* https://udn.realityripple.com/docs/Web/CSS/-webkit-overflow-scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scroll on iOS */
+
+    /* Hide scrollbar for cleaner look */
+    scrollbar-width: none;
   }
-  .left-div {
-    background-image: url("../assets/landingpage_travis.webp");
-    background-size: cover;
-  }
-  .right-div {
-    background-image: url("../assets/landingpage_slash.webp");
-    background-size: cover;
-  }
-  .right-label {
-    text-align: right;
-    top: 20px;
-    right: 20px;
+  .courses::-webkit-scrollbar {
+    display: none;
   }
 
   .course {
-    min-width: 250px;
+    flex: 0 0 85%;
     min-height: 200px;
+    height: 250px;
+    scroll-snap-align: center;
+    margin: 0;
+
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  /* We use linear-gradient + url to darken the image so text pops */
+  .top-div {
+    background:
+      linear-gradient(to top, rgba(2, 47, 75, 0.7), rgba(2, 47, 75, 0.1)),
+      url("../assets/landingpage_daftpunk.webp");
+    background-size: cover;
+    background-position: center;
+  }
+  .left-div {
+    background:
+      linear-gradient(to top, var(--color-dark-brown), rgb(54, 25, 25, 0.1)),
+      url("../assets/landingpage_travis.webp");
+    background-size: cover;
+    background-position: center;
+  }
+  .right-div {
+    background:
+      linear-gradient(to top, rgba(2, 47, 75, 0.7), rgba(2, 47, 75, 0.1)),
+      url("../assets/landingpage_slash.webp");
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* This forces all labels to the bottom-left */
+  .top-label,
+  .left-label,
+  .right-label {
+    position: absolute;
+    top: auto;
+    bottom: 20px;
+    left: 20px;
+    right: auto;
+    text-align: left;
+
+    background: transparent;
+    border: none;
+    padding: 0;
+    max-width: 80%;
   }
 
   .course h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    margin: 0;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   }
 
-  .course:hover {
-    transform: scale(1.02);
-    filter: brightness(1.2);
-    z-index: 10;
-  }
+  /* Hide elements not needed on mobile */
   .video-asset {
     display: none;
   }
