@@ -58,24 +58,12 @@
       href="./assets/landingpage-video-poster-mixing.webp"
       fetchpriority="high"
     />
-    <link
-      rel="preload"
-      as="image"
-      href="./assets/landingpage-video-poster-drums.webp"
-      fetchpriority="high"
-    />
-    <link
-      rel="preload"
-      as="image"
-      href="./assets/landingpage-video-poster-guitar.webp"
-      fetchpriority="high"
-    />
   </head>
 
   <body>
     <header class="header-div">
       <nav class="header-nav">
-        <a href="index.html"><h3 id="logoText">TUNE LAB</h3></a>
+        <a href="index.html"><span id="logoText">TUNE LAB</span></a>
         <div class="header-links">
           <ul class="menu-list">
             <li class="menu-item"><a href="./courses.html">Courses</a></li>
@@ -89,7 +77,9 @@
                 id="login-btn"
                 type="button"
                 class="btn btn-outline-light"
+                aria-label="navigate to menu"
               >
+                >
                 <i class="fa-solid fa-user"></i> Login
               </button></a
             >
@@ -103,6 +93,7 @@
             data-bs-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
+            aria-label="toggle menu"
           >
             <i class="fa-solid fa-bars"></i>
           </button>
@@ -137,6 +128,7 @@
           id="hero-div-btn"
           type="button"
           class="btn btn-light fw-bold"
+          aria-label="Explore Courses"
           onclick="document.location='./courses.html'"
         >
           Explore Courses
@@ -163,6 +155,7 @@
             type="video/mp4"
             poster="./assets/landingpage-video-poster-mixing.webp"
             class="video-asset"
+            fetchpriority="high"
           ></video>
           <div class="top-label">
             <span>Digital Audio Mixing<br />Balancing</span>
@@ -285,16 +278,16 @@
         <div class="footer-left">
           <p>&copy; 2025 Tune Lab. All rights reserved.</p>
           <div class="footer-socials">
-            <a href="#" aria-label="Facebook"
+            <a href="#" aria-label="Visit our Facebook page"
               ><i class="fa-brands fa-facebook-f"></i
             ></a>
-            <a href="#" aria-label="LinkedIn"
+            <a href="#" aria-label="Visit our Linkedin page"
               ><i class="fa-brands fa-linkedin-in"></i
             ></a>
-            <a href="#" aria-label="YouTube"
+            <a href="#" aria-label="Visit our Youtube Channel"
               ><i class="fa-brands fa-youtube"></i
             ></a>
-            <a href="#" aria-label="Instagram"
+            <a href="#" aria-label="Visit our Instagram page"
               ><i class="fa-brands fa-instagram"></i
             ></a>
           </div>
@@ -302,7 +295,7 @@
 
         <div class="footer-links-grid">
           <div class="footer-column">
-            <h5>Platform</h5>
+            <h4>Platform</h4>
             <ul>
               <li><a href="./courses.html">Courses</a></li>
               <li><a href="./pricing.html">Pricing</a></li>
@@ -311,7 +304,7 @@
           </div>
 
           <div class="footer-column">
-            <h5>Company</h5>
+            <h4>Company</h4>
             <ul>
               <li><a href="./about.html">About Us</a></li>
               <li><a href="#">Events</a></li>
@@ -320,7 +313,7 @@
           </div>
 
           <div class="footer-column">
-            <h5>Support</h5>
+            <h4>Support</h4>
             <ul>
               <li><a href="./contact.html">Contact Us</a></li>
               <li><a href="#">Help Center / FAQ</a></li>
