@@ -1,4 +1,17 @@
-/* Philip Weir - pricing.html creator - 2 December 2025 */
+/* 
+  
+  Philip Weir
+  x25132521
+  x25132521@student.ncirl.ie
+
+  Date: 07/12/2025
+  Higher Diploma in Computing  
+  Web Design Client-Side Scripting
+   
+  PRICING PAGE JS
+  The core logic for dynamic price calculation, including discount application (e.g., $10\%$ for online, $20\%$ for group) and correct formatting of the output display
+
+ */
 
 const prices = {
   child: { lesson: 20, bundle: 70 },
