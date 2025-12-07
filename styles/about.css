@@ -135,7 +135,7 @@ p {
   display: none !important;
 }
 
-.toggle-bio {
+/* .toggle-bio {
   display: inline-block;
   margin-top: 14px;
   margin-left: auto;
@@ -153,7 +153,7 @@ p {
     background 0.2s ease,
     transform 0.05s ease;
   text-align: center;
-}
+} */
 
 .toggle-bio:hover {
   background: #260101;
