@@ -23,14 +23,14 @@ html {
   padding: 6px 10px;
   display: inline-block;
   font-family: var(--font-header);
-  font-size: 1.3rem; 
+  font-size: 1.3rem;
   text-align: center;
   letter-spacing: 1px;
   margin: 0 auto 20px;
 }
 
 .title-center {
-  text-align: center;  
+  text-align: center;
 }
 
 /* Image overlays */
@@ -150,7 +150,7 @@ p {
 
 .schedule-column {
   flex: 1;
-  text-align: center; 
+  text-align: center;
 }
 
 .schedule-column h3 {
@@ -174,7 +174,7 @@ p {
 
 .pricing-list li {
   position: relative;
-  padding-left: 22px;     
+  padding-left: 22px;
   margin: 6px 0;
   line-height: 1.4;
 }
@@ -182,7 +182,7 @@ p {
 .pricing-list li::before {
   content: "♪";
   position: absolute;
-  left: 0;                
+  left: 0;
   top: 0;
   color: goldenrod;
   font-size: 1.1rem;
@@ -212,8 +212,8 @@ p {
 
 .col-right .center-wrapper {
   display: flex;
-  justify-content: flex-start; 
-  align-items: flex-start;      
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 @media (max-width: 768px) {
@@ -247,8 +247,8 @@ p {
 
 .col-right .center-wrapper {
   display: flex;
-  justify-content: center;   
-  align-items: flex-start;   
+  justify-content: center;
+  align-items: flex-start;
   width: 100%;
 }
 
@@ -258,14 +258,14 @@ p {
 
 .btn-primary {
   background-color: #011826 !important;
-  border: px solid #5E9ABF !important;
-  color: #fff!important;
+  border: px solid #5e9abf !important;
+  color: #fff !important;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background-color: #260101 !important; 
+  background-color: #260101 !important;
   border-color: #260101 !important;
 }
 
@@ -280,12 +280,12 @@ p {
     flex: 100%;
     max-width: 100%;
     padding: 0px;
-    border-right: none !important; 
-    border-bottom: none !important; 
+    border-right: none !important;
+    border-bottom: none !important;
   }
 
   .image-overlay {
-    display: block; 
+    display: block;
     width: 100%;
   }
 
@@ -312,4 +312,3 @@ p {
     display: none;
   }
 }
-
