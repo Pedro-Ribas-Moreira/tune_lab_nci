@@ -1,0 +1,2 @@
+document.querySelectorAll(".course-card").forEach(e=>{e.addEventListener("click",()=>{let t=e.getAttribute("data-modal");document.getElementById(t).style.display="block"})}),document.querySelectorAll(".close").forEach(e=>{e.addEventListener("click",()=>{e.parentElement.parentElement.style.display="none"})}),window.addEventListener("click",e=>{e.target.classList.contains("modal")&&(e.target.style.display="none")});
+//# sourceMappingURL=courses.4ed0d308.js.map
